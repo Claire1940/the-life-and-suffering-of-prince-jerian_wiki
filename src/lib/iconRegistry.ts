@@ -28,6 +28,18 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Prince Jerian 首页模块导航图标
+  Compass: LucideIcons.Compass,
+  GitBranch: LucideIcons.GitBranch,
+  Scale: LucideIcons.Scale,
+  Brain: LucideIcons.Brain,
+  Trophy: LucideIcons.Trophy,
+  CalendarDays: LucideIcons.CalendarDays,
+  ScrollText: LucideIcons.ScrollText,
+  Crown: LucideIcons.Crown,
+  Lightbulb: LucideIcons.Lightbulb,
+  Swords: LucideIcons.Swords,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
