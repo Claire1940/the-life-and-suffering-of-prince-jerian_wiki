@@ -10,14 +10,7 @@
       "twitterDescription": "The Life and Suffering of Prince Jerian Wiki: choices, endings, lore, builds, characters, walkthroughs, and strategy guides for the narrative RPG."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
