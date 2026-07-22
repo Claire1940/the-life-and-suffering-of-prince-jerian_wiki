@@ -1,0 +1,95 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "The Life and Suffering of Prince Jerian: Playtest Trailer Analysis and Gameplay Insights",
+  description: "Глубокий анализ трейлера тестирования The Life and Suffering of Prince Jerian, включая игровую механику и советы по стратегии.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=The+Life+and+Suffering+of+Prince+Jerian+Analysis",
+  date: "2026-07-23",
+  author: "Команда Wiki The Life and Suffering of Prince Jerian"
+};
+
+<Callout type="info" title="Quick Guide">
+- **Playtest Trailer**: Watch the trailer for a sneak peek of the game's narrative and mechanics.
+- **Gameplay Mechanics**: Explore the core gameplay systems and how they impact the player's experience.
+- **Strategy Tips**: Learn essential strategies for success in The Life and Suffering of Prince Jerian.
+- **Key Features**: Discover the unique aspects of the game that set it apart from others.
+- **Community Feedback**: Check out what the community is saying about the playtest.
+</Callout>
+
+<Section icon={Map} title="Обзор Трейлера">
+
+**Выдающиеся моменты видео:**
+- Нравственный сюжет игры представлен через увлекательную историю.
+- Подчеркиваются развитие персонажей и их взаимоотношения.
+- Показаны игровая среда и атмосфера игры.
+- Демонстрируются игровая механика, такая как combate и исследование.
+
+<YouTubeEmbed videoId="NoO81u3vrJk" title="The Life and Suffering of Prince Jerian - Playtest Trailer | Narrative RPG Gameplay" />
+
+</Section>
+
+<Section icon={Swords} title="Игровая Механика">
+
+The Life and Suffering of Prince Jerian предлагает глубокий и увлекательный игровой опыт, направленный на сюжет. Вот несколько ключевых механик:
+
+| Механика | Описание |
+| --- | --- |
+| **Narrative Choices** | Игроки будут принимать решения, которые повлияют на сюжет и судьбы персонажей. |
+| **Combat System** | Боевая система с тактической глубиной. |
+| **Exploration** | Игровой мир огромен и предлагает多条 пути для исследования. |
+| **Character Progression** | Игроки могут улучшать способности и навыки своих персонажей. |
+
+</Section>
+
+<Section icon={Target} title="Советы по Стратегии">
+
+Чтобы преуспеть в The Life and Suffering of Prince Jerian, рассмотрите следующие стратегии:
+
+- **Понимание Нравственного Сюжета**: Внимательно следите за сюжетом и тем, как ваши решения влияют на игровой мир.
+- **Управление Ресурсами**: Следите за своими ресурсами и используйте их разумно.
+- **Создание Отношений**: Формируйте альянсы с другими персонажами для поддержки и бонусов.
+- **Планирование Движений**: Предвосхищайте действия в бою и исследовании, чтобы избежать ненужных вызовов.
+
+</Section>
+
+<Section icon={Trophy} title="Цели и Чеклист">
+
+<Checklist
+  id="game-goals"
+  title="Необходимые Цели:"
+  items={[
+    "Completing the main storyline",
+    "Unlocking all character abilities",
+    "Achieving a high score in the combat challenges",
+    "Discovering all hidden secrets in the game world"
+  ]}
+/>
+
+</Section>
+
+<Section icon={FAQ} title="Часто Задаваемые Вопросы">
+
+<FAQ items={[
+  {
+    question: "What is the game's main narrative focus?",
+    answer: "The game focuses on the life and struggles of Prince Jerian, a young noble destined for greatness."
+  },
+  {
+    question: "How does the combat system work?",
+    answer: "The game features a turn-based combat system with strategic depth, allowing players to make decisions that impact the outcome."
+  },
+  {
+    question: "Can you play the game solo?",
+    answer: "Yes, The Life and Suffering of Prince Jerian is designed for solo play, but it also offers opportunities for player interaction."
+  }
+]} />
+
+</Section>

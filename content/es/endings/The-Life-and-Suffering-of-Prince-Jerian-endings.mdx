@@ -1,0 +1,101 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Guía de Finales de La Vida y Sufimiento del Príncipe Jerian",
+  description: "Descubre todos los finales de La Vida y Sufimiento del Príncipe Jerian con nuestra guía completa. Averigua cómo desbloquearlos y qué significan.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Endings+Guide",
+  date: "2026-07-23",
+  author: "Equipo de Wiki de La Vida y Sufimiento del Príncipe Jerian"
+};
+
+<Callout type="info" title="Guía Rápida">
+- **Desbloquear Finales**: Completa misiones específicas y toma decisiones a lo largo del juego.
+- **Impacto de los Finales**: Tus decisiones afectarán la historia y el mundo.
+- **Clues de la Historia**: Busca pistas en la narrativa del juego para predecir los finales.
+- **Recompensas**: Algunos finales ofrecen recompensas exclusivas.
+- **Rejugabilidad**: Experimenta la historia desde diferentes perspectivas.
+</Callout>
+
+<Section icon={Map} title="Introducción a los Finales">
+La Vida y Sufimiento del Príncipe Jerian ofrece una narrativa rica con múltiples finales. Cada elección que hagas a lo largo del juego puede llevar a una conclusión diferente, afectando la historia y el mundo que te rodea.
+</Section>
+
+<Section icon={Swords} title="Desbloquear los Finales">
+Para desbloquear todos los finales, sigue estos pasos:
+<Steps>
+  <Step num="1" title="Completa Misiones">
+    Completa todas las misiones principales y secundarias para desbloquear el progreso de la historia.
+  </Step>
+  <Step num="2" title="Toma Decisiones">
+    En puntos clave, toma decisiones que se alineen con el final deseado.
+  </Step>
+  <Step num="3" title="Rejuega el Juego para Finales Alternativos">
+    Rejuega el juego para ver diferentes resultados basados en tus decisiones.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Finales y Su Impacto">
+Cada final tiene un impacto único en el mundo del juego:
+<Checklist
+  id="endings-impact"
+  title="Impacto de los Finales:"
+  items={[
+    "Final Positivo: El imperio florece y la paz prevalece.",
+    "Final Negativo: El imperio cae en el caos y la oscuridad se extiende.",
+    "Final Neutral: La historia alcanza un estado estable, pero con problemas latentes."
+  ]}
+/>
+</Section>
+
+<Section icon={Target} title="Clues de la Historia para los Finales">
+Atiende a estas pistas de la historia para predecir e influir en los finales:
+<Checklist
+  id="story-clues"
+  title="Clues de la Historia:"
+  items={[
+    "Diálogos de personajes",
+    "Cambios ambientales",
+    "Objetos simbólicos",
+    "Visiones misteriosas"
+  ]}
+/>
+</Section>
+
+<Section icon={Sparkles} title="Recompensas Exclusivas">
+Desbloquear ciertos finales otorga recompensas exclusivas:
+<Checklist
+  id="exclusive-rewards"
+  title="Recompensas Exclusivas:"
+  items={[
+    "Ítems únicos en el juego",
+    "Habilidades especiales",
+    "Opciones de personalización"
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+<FAQ items={[
+  {
+    question: "¿Cuántos finales hay en La Vida y Sufimiento del Príncipe Jerian?",
+    answer: "El juego presenta múltiples finales, cada uno influenciado por tus decisiones."
+  },
+  {
+    question: "¿Puedo cambiar mi final después de tomar una decisión?",
+    answer: "No, una vez tomada una decisión, no se puede cambiar. Rejuega el juego para experimentar diferentes resultados."
+  },
+  {
+    question: "¿Tienen todos los finales el mismo nivel de dificultad?",
+    answer: "La dificultad de los finales varía según las decisiones que tomes y la trayectoria de la historia que sigas."
+  }
+]} />
+</Section>

@@ -1,0 +1,95 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Das Leben und Leiden des Prinzen Jerian: Analyse des Playtest-Trailers und Gameplay-Insights",
+  description: "Eine detaillierte Analyse des Playtest-Trailers für Das Leben und Leiden des Prinzen Jerian, einschließlich Spielmechaniken und Strategietipps.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/059669/fff?text=Das+Leben+und+Leiden+des+Prinzen+Jerian+Analyse",
+  date: "2026-07-23",
+  author: "Wiki-Team von Das Leben und Leiden des Prinzen Jerian"
+}
+
+<Callout type="info" title="Kurzübersicht">
+- **Playtest-Trailer**: Sehen Sie sich den Trailer für einen ersten Eindruck der Geschichte und Mechaniken des Spiels an.
+- **Spielmechaniken**: Entdecken Sie die Kernspielmechaniken und wie sie das Spielerlebnis beeinflussen.
+- **Strategietipps**: Lernen Sie grundlegende Strategien für den Erfolg in Das Leben und Leiden des Prinzen Jerian.
+- **Schlüsselmerkmale**: Entdecken Sie die einzigartigen Aspekte des Spiels, die es von anderen abheben.
+- **Community-Feedback**: Sehen Sie sich an, was die Community über den Playtest sagt.
+</Callout>
+
+<Section icon={Map} title="Trailerübersicht">
+
+**Video-Highlights:**
+- Die Geschichte des Spiels wird durch eine fesselnde Geschichte präsentiert.
+- Charakterentwicklung und Beziehungen werden hervorgehoben.
+- Die Spielwelt und die Atmosphäre werden gezeigt.
+- Spielmechaniken wie Kampf und Erkundung werden vorgestellt.
+
+<YouTubeEmbed videoId="NoO81u3vrJk" title="Das Leben und Leiden des Prinzen Jerian - Playtest Trailer | Narrativer RPG Gameplay" />
+
+</Section>
+
+<Section icon={Swords} title="Spielmechaniken">
+
+Das Leben und Leiden des Prinzen Jerian bietet ein tiefes und ansprechendes, handlungsgetriebenes Spielerelebnis. Hier sind einige der wichtigsten Mechaniken:
+
+| Mechanik | Beschreibung |
+| --- | --- |
+| **Narrative Choices** | Spieler werden Entscheidungen treffen, die die Geschichte und das Schicksal der Charaktere beeinflussen. |
+| **Kampfsystem** | Ein taktisches Kampfsystem mit strategischer Tiefe. |
+| **Erkundung** | Die Spielwelt ist groß und bietet mehrere Pfade zum Erkunden. |
+| **Charakterentwicklung** | Spieler können die Fähigkeiten und Fertigkeiten ihrer Charaktere verbessern. |
+
+</Section>
+
+<Section icon={Target} title="Strategietipps">
+
+Um in Das Leben und Leiden des Prinzen Jerian hervorragend zu spielen, berücksichtigen Sie die folgenden Strategien:
+
+- **Verstehen Sie die Geschichte**: Beachten Sie die Geschichte und wie Ihre Entscheidungen die Spielwelt beeinflussen.
+- **Verwalten Sie Ihre Ressourcen**: Halten Sie Ihre Ressourcen im Auge und nutzen Sie sie klug.
+- **Bauen Sie Beziehungen auf**: Schließen Sie Bündnisse mit anderen Charakteren für Unterstützung und Boni.
+- **Planen Sie Ihre Schritte**: Denken Sie im Kampf und bei der Erkundung voraus, um unnötige Herausforderungen zu vermeiden.
+
+</Section>
+
+<Section icon={Trophy} title="Ziele und Aufgabenliste">
+
+<Checklist
+  id="game-goals"
+  title="Wichtige Ziele:"
+  items={[
+    "Vollständige Hauptgeschichte abschließen",
+    "Alle Charakterfähigkeiten freischalten",
+    "Einen hohen Score in den Kampfaufgaben erreichen",
+    "Alle verdeckten Geheimnisse in der Spielwelt entdecken"
+  ]}
+/>
+
+</Section>
+
+<Section icon={FAQ} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Was ist das Hauptnarrativ des Spiels?",
+    answer: "Das Spiel konzentriert sich auf das Leben und die Leiden des Prinzen Jerian, eines jungen Edelmanns, der für Größe bestimmt ist."
+  },
+  {
+    question: "Wie funktioniert das Kampfsystem?",
+    answer: "Das Spiel bietet ein taktisches Kampfsystem mit strategischer Tiefe, das es Spielern ermöglicht, Entscheidungen zu treffen, die das Ergebnis beeinflussen."
+  },
+  {
+    question: "Kann man das Spiel alleine spielen?",
+    answer: "Ja, Das Leben und Leiden des Prinzen Jerian ist für den Solo-Spielmodus konzipiert, bietet aber auch Möglichkeiten für Spielerinteraktion."
+  }
+]} />
+
+</Section>

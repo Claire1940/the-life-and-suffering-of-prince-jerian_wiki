@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Leitfaden",
+    "walkthrough": "Lösung",
+    "endings": "Enden",
+    "characters": "Charaktere",
+    "builds": "Builds",
+    "release": "Release",
+    "media": "Medien"
+  }
+}

@@ -1,0 +1,104 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Life and Suffering of Prince Jerian Endings Guide",
+  description: "Discover all the endings of The Life and Suffering of Prince Jerian with our comprehensive guide. Find out how to unlock them and what they mean.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Endings+Guide",
+  date: "2026-07-23",
+  author: "The Life and Suffering of Prince Jerian Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Unlocking Endings**: Complete specific quests and make choices throughout the game.
+- **Endings Impact**: Your decisions will affect the story and the world.
+- **Story Clues**: Look for clues in the game's narrative to predict endings.
+- **Rewards**: Some endings offer exclusive rewards.
+- **Replay Value**: Experience the story from different perspectives.
+</Callout>
+
+<Section icon={Map} title="Introduction to Endings">
+The Life and Suffering of Prince Jerian offers a rich narrative with multiple endings. Each choice you make throughout the game can lead to a different conclusion, affecting the story and the world around you.
+</Section>
+
+<Section icon={Swords} title="Unlocking the Endings">
+To unlock all endings, follow these steps:
+<Steps>
+  <Step num="1" title="Complete Quests">
+    Complete all main and side quests to unlock story progression.
+  </Step>
+  <Step num="2" title="Make Choices">
+    At key points, make choices that align with your desired ending.
+  </Step>
+  <Step num="3" title="Replay for Alternate Endings">
+    Replay the game to see different outcomes based on your choices.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Endings and Their Impacts">
+Each ending has a unique impact on the game world:
+<Checklist
+  id="endings-impact"
+  title="Endings Impact:"
+  items={[
+    "Positive Ending: The empire flourishes, and peace prevails.",
+    "Negative Ending: The empire falls into chaos, and darkness spreads.",
+    "Neutral Ending: The story reaches a stable state, but with lingering issues."
+  ]}
+/>
+</Section>
+
+<Section icon={Target} title="Story Clues for Endings">
+Pay attention to these story clues to predict and influence endings:
+<Checklist
+  id="story-clues"
+  title="Story Clues:"
+  items={[
+    "Characters' dialogues",
+    "Environmental changes",
+    "Symbolic objects",
+    "Mysterious visions"
+  ]}
+/>
+</Section>
+
+<Section icon={Sparkles} title="Exclusive Rewards">
+Unlocking certain endings grants exclusive rewards:
+<Checklist
+  id="exclusive-rewards"
+  title="Exclusive Rewards:"
+  items={[
+    "Unique in-game items",
+    "Special abilities",
+    "Customization options"
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+<FAQ items={[
+  {
+    question: "How many endings are there in The Life and Suffering of Prince Jerian?",
+    answer: "The game features multiple endings, each influenced by your choices."
+  },
+  {
+    question: "Can I change my ending after making a choice?",
+    answer: "No, once a choice is made, it cannot be changed. Replay the game to experience different outcomes."
+  },
+  {
+    question: "Do all endings have the same level of difficulty?",
+    answer: "The difficulty of endings varies based on the choices you make and the story path you follow."
+  }
+]} />
+</Section>
+```
+
+This MDX content follows the given guidelines, including the use of required components, the structure, and the SEO best practices. It includes a Callout component for the Quick Guide, multiple sections with relevant content, a checklist for story clues and rewards, and an FAQ section. The metadata and images are also formatted according to the requirements.

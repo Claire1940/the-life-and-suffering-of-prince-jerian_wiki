@@ -10,7 +10,15 @@
       "twitterDescription": "The Life and Suffering of Prince Jerian Wiki: choices, endings, lore, builds, characters, walkthroughs, and strategy guides for the narrative RPG."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "walkthrough": "Walkthrough",
+    "endings": "Endings",
+    "characters": "Characters",
+    "builds": "Builds",
+    "release": "Release",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -142,7 +150,7 @@
       "intro": "This walkthrough organizes the game's narrative progression into manageable sections, helping players understand important moments without removing the impact of choice-based storytelling.",
       "chapters": [
         {
-          "title": "Beginning of Jerian's Story",
+          "title": "Beginning of Jerian's story",
           "description": "Introduces Prince Jerian, the setting, and the first decisions that establish the direction of the journey."
         },
         {
@@ -391,34 +399,94 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "The Life and Suffering of Prince Jerian Guides",
-      "description": "Complete guides from beginner basics to advanced choices, endings, and walkthrough strategies for Prince Jerian's journey.",
-      "metaTitle": "The Life and Suffering of Prince Jerian Guides - Walkthroughs & Strategy",
-      "metaDescription": "Complete The Life and Suffering of Prince Jerian guides covering beginner tips, choices, endings, walkthroughs, and strategy for mastering the narrative RPG.",
-      "categoryLabel": "GAME GUIDES",
+      "description": "Complete The Life and Suffering of Prince Jerian guides covering core systems, choices, stats, and strategy for every stage of Prince Jerian's political journey.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Guides - Choices & Strategy",
+      "metaDescription": "Complete The Life and Suffering of Prince Jerian guides with beginner tips, choice systems, stats, and strategy for mastering the political narrative RPG on Steam.",
+      "categoryLabel": "GUIDES & STRATEGY",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, choice systems, story walkthroughs, and faction strategies. Learn everything from first steps to advanced tactics.",
+      "whatIsDescription": "Comprehensive guides covering the choice and stats systems, story progression, and faction strategy. Learn everything from your first decisions to advanced tactics for ruling the Blessed Arknian Empire.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the choice and stats systems and avoid common beginner mistakes",
+        "step1Description": "Understand the choice, stats, and sanity systems and avoid common beginner mistakes",
         "step2Title": "Plan Your Path",
-        "step2Description": "Follow proven routes through the political narrative",
+        "step2Description": "Follow proven routes through the political narrative of Prince Jerian",
         "step3Title": "Master Strategy",
-        "step3Description": "Develop advanced tactics for decisions, relationships, and endings"
+        "step3Description": "Develop advanced tactics for decisions, relationships, and reaching your chosen ending"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Prince Jerian Builds & Stats",
-      "description": "Master character attributes, traits, and build strategies to shape Prince Jerian's decisions and endings.",
-      "metaTitle": "Prince Jerian Builds - Stats, Traits & Character Development",
-      "metaDescription": "Master Prince Jerian builds with attribute guides, trait explanations, and character development strategies for reaching different endings.",
+    "walkthrough": {
+      "title": "The Life and Suffering of Prince Jerian Walkthrough",
+      "description": "A chapter-by-chapter walkthrough of The Life and Suffering of Prince Jerian, covering the main story progression, key decision points, and the consequences of each major choice.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Walkthrough - Chapter Guide",
+      "metaDescription": "Follow the complete The Life and Suffering of Prince Jerian walkthrough with chapter-by-chapter story progression, key decisions, and a demo walkthrough for the narrative RPG.",
+      "categoryLabel": "STORY WALKTHROUGH",
+      "whatIs": "What is the Walkthrough?",
+      "whatIsDescription": "A structured walkthrough that guides you through Prince Jerian's story from beginning to end, highlighting important narrative beats, decision points, and how each choice steers the empire's future.",
+      "why": "Why use the walkthrough?",
+      "whySteps": {
+        "step1Title": "Follow the Story",
+        "step1Description": "Track the main narrative progression chapter by chapter without getting lost",
+        "step2Title": "Catch Key Decisions",
+        "step2Description": "Spot the choices that reshape relationships, factions, and future events",
+        "step3Title": "Preview With the Demo",
+        "step3Description": "Use the demo walkthrough to experience the opening before the full release"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Walkthrough Articles"
+    },
+    "endings": {
+      "title": "The Life and Suffering of Prince Jerian Endings",
+      "description": "Every ending in The Life and Suffering of Prince Jerian explained, including the true ending, the communist ending, and how your choices and consequences unlock each outcome.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Endings - True & All Endings Guide",
+      "metaDescription": "Unlock every ending in The Life and Suffering of Prince Jerian with guides to the true ending, communist ending, and how choices and consequences determine Prince Jerian's fate.",
+      "categoryLabel": "ENDINGS",
+      "whatIs": "What are Endings?",
+      "whatIsDescription": "The Life and Suffering of Prince Jerian features branching endings shaped by your political decisions, faction alliances, and personal traits. Each ending reflects the ruler Jerian became and the empire he left behind.",
+      "why": "Why explore endings?",
+      "whySteps": {
+        "step1Title": "Find the True Ending",
+        "step1Description": "Learn the exact conditions required to unlock the true ending",
+        "step2Title": "Understand Consequences",
+        "step2Description": "See how each major choice and consequence steers the final outcome",
+        "step3Title": "Collect Every Path",
+        "step3Description": "Discover alternate endings like the communist route through replay decisions"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Endings Articles"
+    },
+    "characters": {
+      "title": "The Life and Suffering of Prince Jerian Characters",
+      "description": "Detailed character and faction guides for The Life and Suffering of Prince Jerian, covering nobles, companions, the Church, and the political figures of the Blessed Arknian Empire.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Characters - Factions & Companions",
+      "metaDescription": "Complete character database for The Life and Suffering of Prince Jerian including nobles, companions, factions, and political figures. Learn how each character shapes Prince Jerian's story.",
+      "categoryLabel": "CHARACTERS & FACTIONS",
+      "whatIs": "What are Character Guides?",
+      "whatIsDescription": "Comprehensive guides for the major figures and factions of the Blessed Arknian Empire. Learn each character's motivations, relationships, and how they shape Prince Jerian's journey and the empire's future.",
+      "why": "Why check character guides?",
+      "whySteps": {
+        "step1Title": "Understand Factions",
+        "step1Description": "Learn what the nobles, Church, and common people want and how to earn their support",
+        "step2Title": "Manage Relationships",
+        "step2Description": "Choose dialogue and decisions that strengthen key alliances and companions",
+        "step3Title": "Shape the Story",
+        "step3Description": "Use character knowledge to reach your preferred ending"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Characters"
+    },
+    "builds": {
+      "title": "The Life and Suffering of Prince Jerian Builds",
+      "description": "Master Prince Jerian builds with attribute, stat, and trait guides that shape which choices, abilities, and endings you can reach in The Life and Suffering of Prince Jerian.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Builds - Stats, Traits & Best Choices",
+      "metaDescription": "Master The Life and Suffering of Prince Jerian builds with attribute guides, trait explanations, stat breakdowns, and the best choices for reaching your preferred ending.",
       "categoryLabel": "BUILDS & STATS",
       "whatIs": "What are Builds?",
-      "whatIsDescription": "Builds and stat guides explain how attributes, traits, and sanity shape which choices and outcomes are available during Prince Jerian's story.",
+      "whatIsDescription": "Builds and stat guides explain how attributes, traits, and sanity shape which choices and outcomes are available during Prince Jerian's story, letting you tailor the prince toward the path you want.",
       "why": "Why plan builds?",
       "whySteps": {
         "step1Title": "Unlock Better Choices",
@@ -431,85 +499,45 @@
       "featured": "Featured & Essential",
       "all": "All Build Guides"
     },
-    "items": {
-      "title": "Prince Jerian Characters",
-      "description": "Detailed character and faction guides covering nobles, the Church, common people, and political rivals in the Blessed Arknian Empire.",
-      "metaTitle": "Prince Jerian Characters - Factions & Political Figures Guide",
-      "metaDescription": "Complete character database for The Life and Suffering of Prince Jerian including nobles, Church officials, common people, and rivals. Learn how each faction shapes the story.",
-      "categoryLabel": "CHARACTERS & FACTIONS",
-      "whatIs": "What are Character Guides?",
-      "whatIsDescription": "Comprehensive guides for the major figures and factions of the Blessed Arknian Empire. Learn relationships, motivations, and how each character shapes Prince Jerian's journey.",
-      "why": "Why check character guides?",
-      "whySteps": {
-        "step1Title": "Understand Factions",
-        "step1Description": "Learn what each faction wants and how to earn their support",
-        "step2Title": "Manage Relationships",
-        "step2Description": "Choose dialogue and decisions that strengthen key alliances",
-        "step3Title": "Shape the Story",
-        "step3Description": "Use character knowledge to reach your preferred outcomes"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Characters"
-    },
-    "biomes": {
-      "title": "Prince Jerian Lore & World",
-      "description": "Explore the Blessed Arknian Empire, its history, religion, social hierarchy, and the story behind Prince Jerian's struggle.",
-      "metaTitle": "Prince Jerian Lore - World, History & Story Explained",
-      "metaDescription": "Explore The Life and Suffering of Prince Jerian lore including the Blessed Arknian Empire, religion, social hierarchy, and the full story explained.",
-      "categoryLabel": "LORE & WORLD",
-      "whatIs": "What is Lore?",
-      "whatIsDescription": "Guides to the world of the Blessed Arknian Empire, its history, religious structures, social hierarchy, and the narrative behind Prince Jerian's reign.",
-      "why": "Why explore lore?",
-      "whySteps": {
-        "step1Title": "Understand the World",
-        "step1Description": "Learn the empire's history, religion, and social order",
-        "step2Title": "Follow the Story",
-        "step2Description": "See how lore connects to the choices you make",
-        "step3Title": "Deepen Your Run",
-        "step3Description": "Use world knowledge to make richer roleplay decisions"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Lore"
-    },
-    "building": {
-      "title": "Prince Jerian Mechanics",
-      "description": "Master the choice, stats, sanity, and progression systems that drive The Life and Suffering of Prince Jerian.",
-      "metaTitle": "Prince Jerian Mechanics - Choices, Stats & Progression Systems",
-      "metaDescription": "Master The Life and Suffering of Prince Jerian mechanics with guides to the choice system, attributes, sanity, and progression that shape every playthrough.",
-      "categoryLabel": "GAMEPLAY MECHANICS",
-      "whatIs": "What are Mechanics?",
-      "whatIsDescription": "Guides to the core systems of The Life and Suffering of Prince Jerian: the choice engine, attribute and sanity systems, progression, and how they combine during play.",
-      "why": "Why learn mechanics?",
-      "whySteps": {
-        "step1Title": "Read the Systems",
-        "step1Description": "Understand how choices, stats, and sanity interact",
-        "step2Title": "Plan Progression",
-        "step2Description": "Decide which attributes and traits to develop",
-        "step3Title": "Control Outcomes",
-        "step3Description": "Use system knowledge to steer the story"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Mechanics Guides"
-    },
-    "support": {
-      "title": "Prince Jerian Updates & Release",
-      "description": "Release details, platform info, patches, and future content news for The Life and Suffering of Prince Jerian.",
-      "metaTitle": "Prince Jerian Updates - Release Info, Patches & News",
-      "metaDescription": "Get the latest The Life and Suffering of Prince Jerian updates including release details, platform info, patch notes, and future content announcements.",
-      "categoryLabel": "UPDATES & RELEASE",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Guides covering release information, platform support, patch notes, and future content news for The Life and Suffering of Prince Jerian.",
-      "why": "Why follow updates?",
+    "release": {
+      "title": "The Life and Suffering of Prince Jerian Release",
+      "description": "Release date, platforms, price, and the latest news and updates for The Life and Suffering of Prince Jerian by Schisma Games and 101XP.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Release - Date, Platforms & Price",
+      "metaDescription": "Get The Life and Suffering of Prince Jerian release date, platform support, price, and the latest news and updates from Schisma Games and 101XP.",
+      "categoryLabel": "RELEASE & UPDATES",
+      "whatIs": "What is Release Info?",
+      "whatIsDescription": "Everything about the launch of The Life and Suffering of Prince Jerian: the release date, supported platforms, pricing, demo availability, and post-launch news and updates.",
+      "why": "Why follow release info?",
       "whySteps": {
         "step1Title": "Stay Informed",
-        "step1Description": "Track release details, platforms, and demo availability",
-        "step2Title": "Read Patch Notes",
-        "step2Description": "Keep up with fixes and improvements after launch",
+        "step1Description": "Track the release date, platforms, price, and demo availability",
+        "step2Title": "Read Updates",
+        "step2Description": "Keep up with news, patches, and improvements after launch",
         "step3Title": "Plan Ahead",
-        "step3Description": "Anticipate new content and features"
+        "step3Description": "Anticipate new content and features for Prince Jerian's journey"
       },
       "featured": "Featured & Essential",
-      "all": "All Update Articles"
+      "all": "All Release Articles"
+    },
+    "media": {
+      "title": "The Life and Suffering of Prince Jerian Media",
+      "description": "Watch the trailer, gameplay, and soundtrack of The Life and Suffering of Prince Jerian, and explore the official and AI art behind the political narrative RPG.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Media - Trailer, Gameplay & OST",
+      "metaDescription": "Explore The Life and Suffering of Prince Jerian media including the official trailer, gameplay videos, soundtrack, OST, and art for the narrative RPG.",
+      "categoryLabel": "MEDIA & TRAILERS",
+      "whatIs": "What is Media?",
+      "whatIsDescription": "A collection of trailers, gameplay footage, the official soundtrack and OST, and art for The Life and Suffering of Prince Jerian, giving you a full look at the atmosphere and tone of Prince Jerian's story.",
+      "why": "Why explore media?",
+      "whySteps": {
+        "step1Title": "Watch the Trailer",
+        "step1Description": "See the official trailer and get a feel for the game's political tone",
+        "step2Title": "Preview Gameplay",
+        "step2Description": "Watch gameplay footage of the choice-driven narrative systems",
+        "step3Title": "Enjoy the Soundtrack",
+        "step3Description": "Listen to the OST and soundtrack that define the empire's atmosphere"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media"
     }
   }
 }

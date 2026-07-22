@@ -1,0 +1,101 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Endings-Guide zum Leben und Leiden des Prinzen Jerian",
+  description: "Entdecke alle Enden des Lebens und Leidens des Prinzen Jerian mit unserem umfassenden Leitfaden. Erfahre, wie du sie freischaltest und was sie bedeuten.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/059669/fff?text=Endings+Guide",
+  date: "2026-07-23",
+  author: "Wiki-Team des Lebens und Leidens des Prinzen Jerian"
+};
+
+<Callout type="info" title="Kurzguide">
+- **Freischaltung von Enden**: Fertige spezifische Quests ab und mache Entscheidungen während des Spiels.
+- **Einfluss der Enden**: Deine Entscheidungen beeinflussen die Geschichte und die Welt.
+- **Geschichtestricks**: Such nach Hinweisen in der Spielhandlung, um Enden vorherzusagen.
+- **Belohnungen**: Einige Enden bieten exklusive Belohnungen.
+- **Wiederholungswert**: Erlebe die Geschichte aus verschiedenen Perspektiven.
+</Callout>
+
+<Section icon={Map} title="Einführung in die Enden">
+Das Leben und Leiden des Prinzen Jerian bietet eine reiche Geschichte mit mehreren Enden. Jede Entscheidung, die du während des Spiels triffst, kann zu einem anderen Schluss führen, der die Geschichte und die Welt um dich herum beeinflusst.
+</Section>
+
+<Section icon={Swords} title="Freischaltung der Enden">
+Um alle Enden freizuschalten, befolge diese Schritte:
+<Steps>
+  <Step num="1" title="Questen abschließen">
+    Fertige alle Haupt- und Nebenaufgaben ab, um die Fortschrittsgeschichte zu freischalten.
+  </Step>
+  <Step num="2" title="Entscheidungen treffen">
+    Treffe an Schlüsselpunkten Entscheidungen, die mit deinem gewünschten Ende übereinstimmen.
+  </Step>
+  <Step num="3" title="Spiel wiederholen für alternative Enden">
+    Wiederhole das Spiel, um verschiedene Ergebnisse basierend auf deinen Entscheidungen zu sehen.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Enden und ihre Auswirkungen">
+Jedes Ende hat einen einzigartigen Einfluss auf die Spielwelt:
+<Checklist
+  id="endings-impact"
+  title="Einfluss der Enden:"
+  items={[
+    "Positives Ende: Das Reich blüht auf und Frieden herrscht.",
+    "Negatives Ende: Das Reich stürzt in Chaos und Dunkelheit.",
+    "Neutrales Ende: Die Geschichte erreicht einen stabilen Zustand, aber mit bleibenden Problemen."
+  ]}
+/>
+</Section>
+
+<Section icon={Target} title="Geschichtestricks für Enden">
+Beachte diese Geschichtestricks, um Enden vorherzusagen und zu beeinflussen:
+<Checklist
+  id="story-clues"
+  title="Geschichtestricks:"
+  items={[
+    "Dialoge der Charaktere",
+    "Umgebungsänderungen",
+    "Symbolische Objekte",
+    "Mystische Visionen"
+  ]}
+/>
+</Section>
+
+<Section icon={Sparkles} title="Exklusive Belohnungen">
+Das Freischalten bestimmter Enden bietet exklusive Belohnungen:
+<Checklist
+  id="exclusive-rewards"
+  title="Exklusive Belohnungen:"
+  items={[
+    "Einzigartige Spielinhalte",
+    "Spezielle Fähigkeiten",
+    "Anpassungsoptionen"
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+<FAQ items={[
+  {
+    question: "Wie viele Enden gibt es im Leben und Leiden des Prinzen Jerian?",
+    answer: "Das Spiel bietet mehrere Enden, die von deinen Entscheidungen beeinflusst werden."
+  },
+  {
+    question: "Kann ich mein Ende nach einer Entscheidung ändern?",
+    answer: "Nein, nach einer getroffenen Entscheidung kann diese nicht mehr geändert werden. Wiederhole das Spiel, um verschiedene Ergebnisse zu erleben."
+  },
+  {
+    question: "Haben alle Enden die gleiche Schwierigkeitsstufe?",
+    answer: "Die Schwierigkeit der Enden variiert je nach deinen Entscheidungen und dem von dir verfolgten Handlungsstrang."
+  }
+]} />
+</Section>

@@ -1,1 +1,490 @@
-{}
+{
+  "de": {
+    "builds": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-best-choices",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-best-choices"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-builds",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-builds"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-stats",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-stats"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-traits",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-traits"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-companions",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-companions"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-nobles",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-nobles"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-choices-and-consequences",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-choices-and-consequences"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-communist-ending",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-communist-ending"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-endings",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-endings"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-true-ending",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-true-ending"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-advanced-tips",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-advanced-tips"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-guide",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-guide"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-strategy",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-strategy"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-tips",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-tips"
+      }
+    ],
+    "media": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ai-art",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ai-art"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ai",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ai"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-gameplay",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-gameplay"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ost",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ost"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-soundtrack",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-soundtrack"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-trailer",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-trailer"
+      }
+    ],
+    "walkthrough": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-decisions-guide",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-decisions-guide"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-demo-walkthrough",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-demo-walkthrough"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-gameplay-choices",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-gameplay-choices"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-walkthrough",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-walkthrough"
+      }
+    ]
+  },
+  "en": {
+    "builds": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-best-choices",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-best-choices"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-builds",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-builds"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-stats",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-stats"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-traits",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-traits"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-characters",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-characters"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-companions",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-companions"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-factions",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-factions"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-nobles",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-nobles"
+      }
+    ],
+    "community": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-discord",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-discord"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-reddit",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-reddit"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-review",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-review"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-steam",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-steam"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-choices-and-consequences",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-choices-and-consequences"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-communist-ending",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-communist-ending"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-endings",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-endings"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-true-ending",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-true-ending"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-advanced-tips",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-advanced-tips"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-guide",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-guide"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-strategy",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-strategy"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-tips",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-tips"
+      }
+    ],
+    "media": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ai-art",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ai-art"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ai",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ai"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-gameplay",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-gameplay"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ost",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ost"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-soundtrack",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-soundtrack"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-trailer",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-trailer"
+      }
+    ],
+    "release": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-news",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-news"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-platforms",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-platforms"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-price",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-price"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-release-date",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-release-date"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-updates",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-updates"
+      }
+    ],
+    "walkthrough": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-decisions-guide",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-decisions-guide"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-demo-walkthrough",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-demo-walkthrough"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-gameplay-choices",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-gameplay-choices"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-walkthrough",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-walkthrough"
+      }
+    ]
+  },
+  "es": {
+    "builds": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-best-choices",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-best-choices"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-builds",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-builds"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-stats",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-stats"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-traits",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-traits"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-companions",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-companions"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-nobles",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-nobles"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-communist-ending",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-communist-ending"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-endings",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-endings"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-true-ending",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-true-ending"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-advanced-tips",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-advanced-tips"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-guide",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-guide"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-strategy",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-strategy"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-tips",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-tips"
+      }
+    ],
+    "media": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ai-art",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ai-art"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ai",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ai"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-gameplay",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-gameplay"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ost",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ost"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-soundtrack",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-soundtrack"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-trailer",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-trailer"
+      }
+    ],
+    "walkthrough": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-decisions-guide",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-decisions-guide"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-demo-walkthrough",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-demo-walkthrough"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-gameplay-choices",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-gameplay-choices"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-walkthrough",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-walkthrough"
+      }
+    ]
+  },
+  "ru": {
+    "builds": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-best-choices",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-best-choices"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-builds",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-builds"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-stats",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-stats"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-traits",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-traits"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-characters",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-characters"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-companions",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-companions"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-nobles",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-nobles"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-choices-and-consequences",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-choices-and-consequences"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-communist-ending",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-communist-ending"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-endings",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-endings"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-true-ending",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-true-ending"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-advanced-tips",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-advanced-tips"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-guide",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-guide"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-strategy",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-strategy"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-tips",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-tips"
+      }
+    ],
+    "media": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ai-art",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ai-art"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ai",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ai"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-gameplay",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-gameplay"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-ost",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-ost"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-soundtrack",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-soundtrack"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-trailer",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-trailer"
+      }
+    ],
+    "walkthrough": [
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-decisions-guide",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-decisions-guide"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-demo-walkthrough",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-demo-walkthrough"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-gameplay-choices",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-gameplay-choices"
+      },
+      {
+        "slug": "The-Life-and-Suffering-of-Prince-Jerian-walkthrough",
+        "file": "The-Life-and-Suffering-of-Prince-Jerian-walkthrough"
+      }
+    ]
+  }
+}
