@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Prince Jerian Wiki - Choices, Endings & Lore",
+  "short_name": "Prince Jerian",
+  "description": "Prince Jerian Wiki covers choices, endings, lore, characters, builds, walkthroughs, and strategy guides for The Life and Suffering of Prince Jerian narrative RPG.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#475569",
   "background_color": "#0a0a0a",
   "icons": [
     {
