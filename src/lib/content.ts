@@ -36,7 +36,7 @@ function parseContentDir(dir: string): { language: string; contentType: string }
 
 /**
  * 根据 slug 在目录中反查真实文件名（不含 .mdx）
- * 例如 slug="guide" → 返回与该 slug 对应的真实文件名（处理含特殊字符的文件名，如冒号）
+ * 例如 slug="lucid-blocks-guide" → 返回 "lucid:blocks-guide"
  * （改为查清单，签名保持 (dir, slug) 不变，调用方无需改动）
  */
 export function findFileBySlug(dir: string, slug: string, _basePath: string[] = []): string | null {
@@ -160,20 +160,8 @@ export async function getAllContentPaths(language: Language = 'en'): Promise<str
   const paths: string[][] = []
 
   for (const contentType of CONTENT_TYPES) {
-    // 当前语言已有的 slug
-    const seen = new Set<string>()
     for (const entry of entriesFor(language, contentType)) {
       paths.push([contentType, ...entry.slug.split('/')])
-      seen.add(entry.slug)
-    }
-    // 英文 fallback：当前语言缺失的 slug 用英文补齐，与 getAllContent 的 fallback 行为一致。
-    // 否则非英文列表页（getAllContent 会回退英文）渲染出的内链指向未生成的详情页 → 静态导出 404。
-    if (language !== 'en') {
-      for (const entry of entriesFor('en', contentType)) {
-        if (!seen.has(entry.slug)) {
-          paths.push([contentType, ...entry.slug.split('/')])
-        }
-      }
     }
   }
 
@@ -216,4 +204,47 @@ export function isValidLanguage(lang: string): lang is Language {
  */
 export function getDefaultLanguage(): Language {
   return routing.defaultLocale as Language
+}
+
+/**
+ * 取内容的更新时间戳（优先 lastModified，其次 date；无则 0）。
+ * 模板内置此工具函数，避免覆盖站点原 content.ts 时丢失导致 import 报错。
+ */
+export function getContentUpdateTime(frontmatter?: ContentFrontmatter): number {
+  if (!frontmatter) return 0
+  if (frontmatter.lastModified) return new Date(frontmatter.lastModified).getTime()
+  if (frontmatter.date) return new Date(frontmatter.date).getTime()
+  return 0
+}
+
+/**
+ * 按 (contentType, language, slug) 取单篇内容的 frontmatter（含 en 回退）。
+ * 模板内置此函数，避免覆盖站点原 content.ts 时丢失导致 import 报错。
+ */
+export async function getContentFrontmatter(
+  contentType: ContentType,
+  language: Language,
+  slug: string
+): Promise<ContentFrontmatter | null> {
+  const curFile = entriesFor(language, contentType).find((e) => e.slug === slug)?.file
+  if (curFile) {
+    try {
+      const mod = await import(`../../content/${language}/${contentType}/${curFile}.mdx`)
+      return mod.metadata as ContentFrontmatter
+    } catch {
+      /* fall through to en */
+    }
+  }
+  if (language !== 'en') {
+    const enFile = entriesFor('en', contentType).find((e) => e.slug === slug)?.file
+    if (enFile) {
+      try {
+        const mod = await import(`../../content/en/${contentType}/${enFile}.mdx`)
+        return mod.metadata as ContentFrontmatter
+      } catch {
+        /* ignore */
+      }
+    }
+  }
+  return null
 }
