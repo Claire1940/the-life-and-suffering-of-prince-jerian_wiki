@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.the-life-and-suffering-of-prince-jerian.wiki/sitemap.xml

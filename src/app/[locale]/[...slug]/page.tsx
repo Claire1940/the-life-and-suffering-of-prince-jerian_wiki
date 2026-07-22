@@ -120,10 +120,22 @@ async function renderDetailPage(
   try {
     // 反查真实文件名（处理含特殊字符的文件名，如冒号）
     const contentDir = path.join(process.cwd(), 'content', locale, contentType)
-    const realSlug = findFileBySlug(contentDir, currentSlug) || currentSlug
+    let realSlug = findFileBySlug(contentDir, currentSlug)
+    let importLocale = locale
+    // 当前语言缺失该文章时，回退到英文版本（与 getAllContent 的 fallback 保持一致，
+    // 确保非英文列表页内链指向的详情页可正常渲染而非 404）
+    if (!realSlug && locale !== 'en') {
+      const enContentDir = path.join(process.cwd(), 'content', 'en', contentType)
+      const enRealSlug = findFileBySlug(enContentDir, currentSlug)
+      if (enRealSlug) {
+        realSlug = enRealSlug
+        importLocale = 'en'
+      }
+    }
+    realSlug = realSlug || currentSlug
 
     const { default: MDXContent, metadata } = await import(
-      `../../../../content/${locale}/${contentType}/${realSlug}.mdx`
+      `../../../../content/${importLocale}/${contentType}/${realSlug}.mdx`
     )
 
     // 获取相关文章
@@ -261,10 +273,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     try {
       const contentDir = path.join(process.cwd(), 'content', locale, contentType)
-      const realSlug = findFileBySlug(contentDir, currentSlug) || currentSlug
+      let realSlug = findFileBySlug(contentDir, currentSlug)
+      let importLocale = locale
+      if (!realSlug && locale !== 'en') {
+        const enContentDir = path.join(process.cwd(), 'content', 'en', contentType)
+        const enRealSlug = findFileBySlug(enContentDir, currentSlug)
+        if (enRealSlug) {
+          realSlug = enRealSlug
+          importLocale = 'en'
+        }
+      }
+      realSlug = realSlug || currentSlug
 
       const { metadata } = await import(
-        `../../../../content/${locale}/${contentType}/${realSlug}.mdx`
+        `../../../../content/${importLocale}/${contentType}/${realSlug}.mdx`
       )
 
       const fullPath = `/${slug.join('/')}`

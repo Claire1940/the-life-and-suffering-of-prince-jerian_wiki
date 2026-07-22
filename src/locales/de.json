@@ -1,11 +1,543 @@
 {
+  "seo": {
+    "home": {
+      "title": "Prinz Jerian Wiki - Entscheidungen & Legende",
+      "description": "The Life and Suffering of Prince Jerian Wiki mit Entscheidungen, Enden, Legende, Aufbauten, Charakteren, Durchgängen und Strategieanleitungen für das narrative RPG-Abenteuer.",
+      "keywords": "The Life and Suffering of Prince Jerian, PC-RPG, Entscheidungen, Enden, Legende, Durchgängen, Aufbauten",
+      "ogTitle": "Prinz Jerian Wiki - Entscheidungen & Legende",
+      "ogDescription": "The Life and Suffering of Prince Jerian Wiki mit Entscheidungen, Enden, Legende, Aufbauten, Charakteren, Durchgängen und Strategieanleitungen für das narrative RPG-Abenteuer.",
+      "twitterTitle": "Prinz Jerian Wiki - Entscheidungen & Legende",
+      "twitterDescription": "The Life and Suffering of Prince Jerian Wiki: Entscheidungen, Enden, Legende, Aufbauten, Charakteren, Durchgängen und Strategieanleitungen für das narrative RPG."
+    }
+  },
   "nav": {
-    "guide": "Leitfaden",
-    "walkthrough": "Lösung",
+    "guide": "Anleitung",
+    "walkthrough": "Durchgang",
     "endings": "Enden",
     "characters": "Charaktere",
-    "builds": "Builds",
-    "release": "Release",
+    "builds": "Aufbauten",
+    "release": "Veröffentlichung",
     "media": "Medien"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Spiel auf Steam",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Thema wechseln",
+    "lightMode": "Hellmodus",
+    "darkMode": "Dunkelmodus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Verwandte Artikel",
+    "readMore": "Mehr lesen",
+    "articlesComingSoon": "Artikel folgen"
+  },
+  "hero": {
+    "badge": "Politische Narrative RPG-Abenteuer",
+    "title": "The Life and Suffering of Prince Jerian Wiki",
+    "description": "Entdecke den Prinz Jerian Wiki mit Entscheidungen, Enden, Legende, Charakteren, Aufbauten, Durchgängen und Strategieanleitungen, die den Weg des Prinzen durch die Imperialpolitik beleuchten.",
+    "getFreeCodesCTA": "Durchgang entdecken",
+    "playOnSteamCTA": "Spiel auf Steam",
+    "stats": {
+      "stat1": {
+        "value": "PC",
+        "label": "Plattform"
+      },
+      "stat2": {
+        "value": "Mehrere",
+        "label": "Mögliche Enden"
+      },
+      "stat3": {
+        "value": "20. Juli 2026",
+        "label": "Veröffentlichungsdatum"
+      },
+      "stat4": {
+        "value": "Wöchentlich",
+        "label": "Aktualisierungen"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "The Life and Suffering of Prince Jerian Spiel",
+    "description": "Navigiere durch politische Intrigen, moralische Dilemmata und verzweigte Konsequenzen, während Prinz Jerian kämpft, um das Erhabene Arknian Reich zu regieren, in diesem erzählenden RPG auf Steam."
+  },
+  "tools": {
+    "title": "The Life and Suffering of Prince Jerian",
+    "titleHighlight": "Leitfäden",
+    "subtitle": "Walkthroughs, Entscheidungen, Enden, Charaktere, Builds und Strategien für The Life and Suffering of Prince Jerian.",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Prinz Jerian Einsteiger-Guide",
+        "description": "Kernsysteme, Entscheidungen und Statistiken, um den Weg einzuschlagen"
+      },
+      {
+        "icon": "Compass",
+        "title": "Prinz Jerian Walkthrough",
+        "description": "Kapitelweise Geschichte und Fortschrittsleitung"
+      },
+      {
+        "icon": "GitBranch",
+        "title": "Prinz Jerian Enden-Guide",
+        "description": "Verzweigte Ergebnisse, Herrschaftswege und Schicksal"
+      },
+      {
+        "icon": "Scale",
+        "title": "Prinz Jerian Entscheidungen-Guide",
+        "description": "Wichtige Entscheidungen und ihre langfristigen Konsequenzen"
+      },
+      {
+        "icon": "Users",
+        "title": "Prinz Jerian Charaktere-Guide",
+        "description": "Fakten, Adlige, die Kirche und politische Figuren"
+      },
+      {
+        "icon": "Brain",
+        "title": "Prinz Jerian Statistiken & Eigenschaften",
+        "description": "Attribute, Fähigkeiten und Gesundheitsmechaniken"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Prinz Jerian Erfolge",
+        "description": "Steam-Erfolge und Freischaltungsvoraussetzungen"
+      },
+      {
+        "icon": "CalendarDays",
+        "title": "Prinz Jerian Veröffentlichung & Updates",
+        "description": "Details zur Veröffentlichung, Plattformen und Inhaltsnachrichten"
+      }
+    ]
+  },
+  "modules": {
+    "princeJerianBeginnerGuide": {
+      "title": "The Life and Suffering of Prince Jerian Einsteiger-Guide",
+      "displayType": "Schritte",
+      "intro": "Ein auf Anfänger zugeschnittener Leitfaden, der die grundlegenden Ideen behandelt, die Spieler verstehen müssen: Entscheidungen treffen, Konsequenzen verwalten, die Geschichte verfolgen und die politischen und persönlichen Herausforderungen um Prinz Jerian navigieren.",
+      "steps": [
+        {
+          "title": "Verstehe das Entscheidungs-basierte Gameplay",
+          "description": "Erfahre, wie Dialogoptionen und Entscheidungen Ereignisse, Beziehungen und die Richtung der Geschichte von Jerian bestimmen."
+        },
+        {
+          "title": "Lerne die Charakter- und Statussysteme kennen",
+          "description": "Verstehe, wie persönliches Wachstum, Reputation und wichtige Attribute spätere Situationen beeinflussen."
+        },
+        {
+          "title": "Verwalte politische Entscheidungen",
+          "description": "Nähere dich Konflikten und Führungsentscheidungen sorgfältig, da Entscheidungen langfristige Konsequenzen haben können."
+        },
+        {
+          "title": "Verfolge die Geschichte der Konsequenzen",
+          "description": "Überprüfe frühere Entscheidungen und überlege, wie verschiedene Wege zukünftige Ereignisse beeinflussen."
+        },
+        {
+          "title": "Planen Sie Ihren ersten Durchlauf",
+          "description": "Wählen Sie eine Rollenspielrichtung und erleben Sie die Konsequenzen Ihrer Entscheidungen während Jerians Leben."
+        }
+      ],
+      "quickTips": [
+        "Jede Dialogwahl kann Beziehungen verändern, also lesen Sie die Optionen sorgfältig durch, bevor Sie sich festlegen.",
+        "Politische Entscheidungenwellen sich über Kapitel hinweg und können das Ende beeinflussen, das Sie erreichen.",
+        "Behalten Sie Ihre Vernunft und die wichtigsten Attribute im Auge, da sie bestimmte Antworten freischalten oder blockieren.",
+        "Mehrere Durchläufe zeigen, wie verschiedene Führungsstile das Schicksal von Prince Jerian umformen."
+      ]
+    },
+    "princeJerianWalkthrough": {
+      "title": "Durchgangsführung zu „The Life and Suffering of Prince Jerian“",
+      "displayType": "accordion",
+      "intro": "Diese Durchgangsführung organisiert den Erzählfortgang des Spiels in verdauliche Abschnitte, hilft Spielern wichtige Momente zu verstehen, ohne den Einfluss der auf Wahl basierenden Erzählweise zu verringern.",
+      "chapters": [
+        {
+          "title": "Anfang von Jerians Geschichte",
+          "description": "Stellt Prince Jerian, die Umgebung und die ersten Entscheidungen vor, die die Richtung der Reise festlegen."
+        },
+        {
+          "title": "Frühe Entscheidungen und Konsequenzen",
+          "description": "Behandelt die ersten Entscheidungen, die Beziehungen, politische Situationen und zukünftige Ereignisse beeinflussen."
+        },
+        {
+          "title": "Führungsprobleme",
+          "description": "Erklärung, wie große Entscheidungen Jerians Position und Verantwortlichkeiten im Reich beeinflussen."
+        },
+        {
+          "title": "Spätere Erzählwege",
+          "description": "Hervorhebt, wie angesammelte Entscheidungen verschiedene narrative Entwicklungen und Enden führen."
+        }
+      ]
+    },
+    "princeJerianEndingsGuide": {
+      "title": "Endungsführer zu „The Life and Suffering of Prince Jerian“",
+      "displayType": "cards",
+      "intro": "Ein Leitfaden zur Verständigung über die verzweigten Ergebnisse des Spiels, der sich auf die Art und Weise konzentriert, wie Führungsstil, persönliche Entscheidungen und politische Entscheidungen das Ende Jerians Geschichten bestimmen.",
+      "cards": [
+        {
+          "title": "Politische Ergebnisse",
+          "description": "Verschiedene Ansätze zur Herrschaft und Entscheidungsfindung können verschiedene Zukunftspfade für Jerian und das Reich führen."
+        },
+        {
+          "title": "Persönliche Beziehungsergebnisse",
+          "description": "Entscheidungen während der Geschichte beeinflussen wichtige Beziehungen und narrative Ergebnisse."
+        },
+        {
+          "title": "Konsequenzen der Führung",
+          "description": "Die Art und Weise, wie Jerian Herausforderungen bewältigt, beeinflusst seine endgültige Position, Reputation und Nachlass."
+        },
+        {
+          "title": "Wiederholungspfade",
+          "description": "Versuchen Sie verschiedene Entscheidungen, um alternative Entwicklungen zu erleben und neue Enden zu erreichen."
+        }
+      ]
+    },
+    "princeJerianChoicesGuide": {
+      "title": "Führungsentscheidungen zu „The Life and Suffering of Prince Jerian“",
+      "displayType": "table",
+      "intro": "Ein Referenzhandbuch für Spieler, die den Einfluss wichtiger Entscheidungen verstehen möchten, einschließlich politischer Entscheidungen, persönlicher Interaktionen und langfristiger Konsequenzen.",
+      "rows": [
+        {
+          "choice": "Dialogentscheidungen",
+          "impact": "Kann Beziehungen und zukünftige Erzählereignisse beeinflussen."
+        },
+        {
+          "choice": "Politische Entscheidungen",
+          "impact": "Beeinflussen Führungs- und Reichsrichtungen."
+        },
+        {
+          "choice": "Persönliche Entscheidungen",
+          "impact": "Formen Jerians Entwicklung und individuelle narrative Ergebnisse."
+        },
+        {
+          "choice": "Langfristige Entscheidungen",
+          "impact": "Erzeugen Konsequenzen, die später in der Erzählung auftreten können."
+        }
+      ]
+    },
+    "princeJerianCharactersGuide": {
+      "title": "Handbuch zu Charakteren zu „The Life and Suffering of Prince Jerian“",
+      "displayType": "Karten",
+      "intro": "Charaktere in \"The Life and Suffering of Prince Jerian\" repräsentieren verschiedene Interessen innerhalb des Reiches. Spieler müssen Beziehungen zu Adligen, der Kirche, dem Volk und rivalisierenden politischen Figuren navigieren, während sie Entscheidungen treffen, die die Zukunft von Arknia mitbestimmen.",
+      "cards": [
+        {
+          "title": "Prinz Jerian",
+          "description": "Der Erbe des Hauses Tempest und Hauptprotagonist. Als zukünftiger Herrscher des Erhabenen Arknianischen Reiches muss Jerian persönliche Überzeugungen, politische Verantwortlichkeiten und die Forderungen mächtiger Fraktionen ausbalancieren."
+        },
+        {
+          "title": "Factionsführer der Aristokratie",
+          "description": "Ein Vertreter der aristokratischen Familien des Reiches, der Tradition, Einfluss und adelige Privilegien schätzt. Entscheidungen, die diese Fraktion betreffen, können die herrschende Elite stärken oder schwächen."
+        },
+        {
+          "title": "Kirchenbeamter",
+          "description": "Eine hochrangige religiöse Autorität, die den Einfluss der Kirche auf die imperiale Politik repräsentiert. Ihr Unterstützung kann Stabilität bieten, kann aber schwierige Kompromisse erfordern."
+        },
+        {
+          "title": "Vertreter des Volkes",
+          "description": "Eine Stimme für die gewöhnlichen Bürger, die von Besteuerung, Gesetzen und königlichen Entscheidungen betroffen sind. Die Unterstützung dieser Gruppe kann das Vertrauen der Öffentlichkeit verbessern und Druck für Reformen erzeugen."
+        },
+        {
+          "title": "Mitglied der königlichen Familie",
+          "description": "Ein Mitglied des königlichen Hauses, das mit Jerians persönlichem Leben und den Thronfolgeproblemen verbunden ist. Ihre Beziehungen können Familiengesinnung und politische Entscheidungen beeinflussen."
+        },
+        {
+          "title": "Politischer Rivale",
+          "description": "Eine konkurrierende Figur, die Einfluss innerhalb des Reiches sucht. Rivalisierende Interaktionen testen Jerians Fähigkeit, Bedrohungen, Allianzen und langfristige Ambitionen zu managen."
+        }
+      ]
+    },
+    "princeJerianStatsTraits": {
+      "title": "The Life and Suffering of Prince Jerian - Statistiken und Eigenschaften Guide",
+      "displayType": "tierGrid",
+      "intro": "Die Fähigkeiten von Prinz Jerian bestimmen, welche Ansätze während politischer Konflikte und narrativer Ereignisse verfügbar sind. Die Verwaltung von Stärken und Schwächen ist entscheidend für das Abschließen verschiedener Wege und Enden.",
+      "stats": [
+        {
+          "title": "Stärke",
+          "rating": "Hocher Impact",
+          "description": "Stellt physische Fähigkeiten, Autorität und die Fähigkeit dar, Situationen, die Gewalt oder persönliche Entschlossenheit erfordern, zu bewältigen."
+        },
+        {
+          "title": "Agilität",
+          "rating": "Mittlerer Impact",
+          "description": "Einfluss auf Anpassungsfähigkeit, schnelle Reaktionen und das Bewältigen von Situationen, in denen Flexibilität wichtig ist."
+        },
+        {
+          "title": "Intelligenz",
+          "rating": "Hocher Impact",
+          "description": "Hilft analytische Entscheidungen, strategische Entscheidungen und Lösungen während komplexer politischer Ereignisse freizuschalten."
+        },
+        {
+          "title": "Willenskraft",
+          "rating": "Hocher Impact",
+          "description": "Stellt Widerstand gegen Druck, emotionale Auseinandersetzungen und schwierige Opfer dar, die von Führung erfordert werden."
+        },
+        {
+          "title": "Charisma",
+          "rating": "Hocher Impact",
+          "description": "Verbessert Diplomatie, Überzeugung, Faction-Beziehungen und die Fähigkeit, wichtige Charaktere zu beeinflussen."
+        },
+        {
+          "title": "Geisteszustand",
+          "rating": "Kritischer Impact",
+          "description": "Reflektiert Jerians geistige Verfassung und beeinflusst die Entscheidungsfindung während stressiger politischer und persönlicher Situationen."
+        }
+      ]
+    },
+    "princeJerianAchievements": {
+      "title": "The Life and Suffering of Prince Jerian - Erfolge Guide",
+      "displayType": "table",
+      "intro": "Erfolge belohnen Spieler für das Erkunden verschiedener politischer Wege, das Entdecken von Ergebnissen und das Abschließen mehrerer Durchläufe. Ein vollständiger Lauf erfordert das Verständnis von Entscheidungen und Faction-Beziehungen.",
+      "rows": [
+        {
+          "title": "Erzählung abschließen",
+          "requirement": "Schließe den Hauptnarrativpfad ab und erlebe das Ende des ersten großen politischen Weges von Prinz Jerian."
+        },
+        {
+          "title": "Erreichung - spezifisches Ziel",
+          "requirement": "Erreichen Sie ein spezifisches Ende durch das Wahren der erforderlichen Fraktionsbeziehungen, Entscheidungen und persönlichen Eigenschaften."
+        },
+        {
+          "title": "Wahlfachmeister",
+          "requirement": "Navigieren Sie erfolgreich wichtige politische Entscheidungen und zeigen Sie Meisterschaft im Wahlssystem des Spiels."
+        },
+        {
+          "title": "Charakter maximiert",
+          "requirement": "Entwickeln Sie entscheidende Charaktereigenschaften und maximieren Sie wichtige Fähigkeiten während eines Spiels."
+        },
+        {
+          "title": "Versteckte Errungenschaften",
+          "requirement": "Entdecken Sie geheime Ereignisse, besondere Entscheidungen oder ungewöhnliche narrative Ergebnisse, die während der Geschichte versteckt sind."
+        },
+        {
+          "title": "Vollständigkeit",
+          "requirement": "Vollständige Erfüllung aller Steam-Erreichungen durch das Erkunden mehrerer Routen und das Erlebnis des gesamten Spektrums von Ergebnissen."
+        }
+      ]
+    },
+    "princeJerianReleaseUpdates": {
+      "title": "Veröffentlichung und Updates von The Life and Suffering of Prince Jerian",
+      "displayType": "Karten",
+      "intro": "The Life and Suffering of Prince Jerian führt die Tradition der wahlgeleiteten politischen RPG-Storytelling fort. Dieser Abschnitt sammelt wichtige Veröffentlichungsdetails und Updateinformationen für zurückkehrende Spieler.",
+      "cards": [
+        {
+          "title": "Plattform: Steam PC",
+          "description": "Verfügbar auf Steam für Windows PC-Spieler, die ein wahlgeleitetes narrative RPG mit dem Fokus auf Politik und persönliche Entscheidungen erleben möchten."
+        },
+        {
+          "title": "Entwickler: Schisma Games",
+          "description": "Entwickelt von Schisma Games als Fortsetzung der narrativen RPG-Reihe nach The Life and Suffering of Sir Brante."
+        },
+        {
+          "title": "Verleger: 101XP",
+          "description": "Veröffentlicht von 101XP, die politische Storytelling-Erfahrung dem Steam-Publikum zugänglich machend."
+        },
+        {
+          "title": "Veröffentlichungsdatum: 20. Juli 2026",
+          "description": "Offizielles Veröffentlichungsdatum, das den Beginn der Geschichte von Prince Jerian und seinen Kampf um die imperiale Führung markiert."
+        },
+        {
+          "title": "Demo verfügbar",
+          "description": "Eine Demoversion bietet Spielern einen frühen Einblick in die narrativen Systeme, Entscheidungen und den politischen Ambiente des Spiels."
+        },
+        {
+          "title": "Genre: Narrativer RPG",
+          "description": "Ein politisches narrative RPG mit Dialogwahlen, Fraktionsmanagement, Charakterentwicklung und mehreren möglichen Ergebnissen."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "titleHighlight": "Alles, was Sie über The Life and Suffering of Prince Jerian wissen müssen",
+    "subtitle": "Ist The Life and Suffering of Prince Jerian ein Einzelspieler-Spiel?",
+    "questions": [
+      {
+        "question": "Ja. The Life and Suffering of Prince Jerian ist ein Einzelspieler-narratives RPG ohne Mehrspieler- oder Koop-Modi.",
+        "answer": "Was für ein Spiel ist The Life and Suffering of Prince Jerian?"
+      },
+      {
+        "question": "The Life and Suffering of Prince Jerian ist ein politisches narrative RPG, das sich auf Dialogwahlen, Fraktionsmanagement, Charakterentwicklung und mehrere Enden konzentriert.",
+        "answer": "Wo kann ich The Life and Suffering of Prince Jerian spielen?"
+      },
+      {
+        "question": "The Life and Suffering of Prince Jerian ist auf Steam für Windows PC erhältlich, mit einer kostenlosen Demo, die auch im Steam Store angeboten wird.",
+        "answer": "Wann wurde The Life and Suffering of Prince Jerian veröffentlicht?"
+      },
+      {
+        "question": "The Life and Suffering of Prince Jerian wurde am 20. Juli 2026 veröffentlicht, entwickelt von Schisma Games und veröffentlicht von 101XP.",
+        "answer": "Hat The Life and Suffering of Prince Jerian mehrere Enden?"
+      },
+      {
+        "question": "Ja. The Life and Suffering of Prince Jerian bietet verzweigte Ergebnisse, die von Ihren politischen Entscheidungen, Beziehungen und persönlichen Eigenschaften geformt werden.",
+        "answer": "Wird The Life and Suffering of Prince Jerian aktualisiert?"
+      },
+      {
+        "question": "Ja. The Life and Suffering of Prince Jerian führt die wahlgeleitete Storytelling-Reihe fort und post-launch-Content-Neuigkeiten werden durch die offizielle Steam-Community geteilt.",
+        "answer": "Ja. The Life and Suffering of Prince Jerian führt die Wahl-driven Storytelling der Reihe fort und nach dem Launch werden Inhalte durch die offizielle Steam-Community geteilt."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Prinzen Jerian zu führen?",
+    "description": "Treten Sie der Steam-Community für \"The Life and Suffering of Prince Jerian\" bei, um Entscheidungen, Enden, Legende und Strategie zu diskutieren!",
+    "joinCommunity": "Steam-Community",
+    "joinGame": "Spiel auf Steam"
+  },
+  "footer": {
+    "title": "Prinzen Jerian Wiki",
+    "description": "Ihr vollständiger Ressourcenhub für \"The Life and Suffering of Prince Jerian\"-Durchgänge, Entscheidungen, Enden, Legende, Builds und Strategieanleitungen.",
+    "resources": "Ressourcen",
+    "community": "Gemeinschaft",
+    "legal": "Rechtliche Hinweise",
+    "discord": "YouTube",
+    "twitter": "Kostenlose Demo",
+    "steamCommunity": "Steam-Community",
+    "steamStore": "Steam-Shop",
+    "about": "Über",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Urheberrecht",
+    "copyright": "© 2026 Prince Jerian Wiki. Keine Verbindung zu Schisma Games.",
+    "disclaimer": "Unoffizielle Fan-ressourcenwebsite."
+  },
+  "pages": {
+    "guide": {
+      "title": "The Life and Suffering of Prince Jerian Anleitungen",
+      "description": "Komplette \"The Life and Suffering of Prince Jerian\"-Anleitungen, die die Kernsysteme, Entscheidungen, Statistiken und Strategie für jeden Schritt von Prinzen Jerian auf seinem politischen Weg abdecken.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Guides - Entscheidungen & Strategie",
+      "metaDescription": "Komplette \"The Life and Suffering of Prince Jerian\"-Anleitungen mit Einsteiger-Tipps, Entscheidungs-Systemen, Statistiken und Strategie für das Meistern des politischen Erzähl-RPGs auf Steam.",
+      "categoryLabel": "GUIDES & STRATEGIE",
+      "whatIs": "Was sind Guides?",
+      "whatIsDescription": "Komplette Anleitungen, die die Entscheidungs- und Statistiksysteme, Handlungsfortschritt und Fraktionsstrategie abdecken. Lerne alles von deinen ersten Entscheidungen bis zu fortgeschrittenen Taktiken zur Herrschaft über das Erhabene Arknianische Reich.",
+      "why": "Warum Guides lesen?",
+      "whySteps": {
+        "step1Title": "Lerne die Kernmechaniken",
+        "step1Description": "Verstehe die Entscheidungs-, Statistik- und Gesundheitspunkte-Systeme und vermeide häufige Einsteigerfehler",
+        "step2Title": "Plan Deinen Weg",
+        "step2Description": "Folge bewährten Routen durch die politische Erzählung von Prinzen Jerian",
+        "step3Title": "Meistere die Strategie",
+        "step3Description": "Entwickle fortgeschrittene Taktiken für Entscheidungen, Beziehungen und das Erreichen deines gewählten Endes"
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Guides"
+    },
+    "walkthrough": {
+      "title": "The Life and Suffering of Prince Jerian Durchgang",
+      "description": "Ein Kapitel-für-Kapitel-Durchgang von \"The Life and Suffering of Prince Jerian\", der die Haupthandlungsfortschritt, Schlüsselentscheidungspunkte und die Konsequenzen jeder großen Entscheidung abdeckt.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Durchgang - Kapitelanleitung",
+      "metaDescription": "Folge dem vollständigen \"The Life and Suffering of Prince Jerian\"-Durchgang mit Kapitel-für-Kapitel-Handlungsfortschritt, Schlüsselentscheidungen und einem Demodurchgang für das Erzähl-RPG.",
+      "categoryLabel": "STORY DURCHGANG",
+      "whatIs": "Was ist der Durchgang?",
+      "whatIsDescription": "Ein strukturierter Durchgang, der Sie von Anfang bis Ende durch die Geschichte von Prinz Jerian führt, wichtige narrative Akzente, Entscheidungspunkte und wie jede Wahl die Zukunft des Reiches lenkt, hervorhebt.",
+      "why": "Warum den Durchgang verwenden?",
+      "whySteps": {
+        "step1Title": "Die Geschichte verfolgen",
+        "step1Description": "Verfolgen Sie die Hauptnarrative Entwicklung Kapitel für Kapitel, ohne sich zu verlieren",
+        "step2Title": "Wichtige Entscheidungen erkennen",
+        "step2Description": "Entdecke die Entscheidungen, die Beziehungen, Fraktionen und zukünftige Ereignisse verändern",
+        "step3Title": "Mit der Demo einen Vorgeschmack nehmen",
+        "step3Description": "Verwenden Sie den Demodurchgang, um den Anfang vor der vollständigen Veröffentlichung zu erleben"
+      },
+      "featured": "Hervorgehoben & Wichtig",
+      "all": "Alle Durchgangsartikel"
+    },
+    "endings": {
+      "title": "Endings von The Life and Suffering of Prince Jerian",
+      "description": "Jedes Ende in The Life and Suffering of Prince Jerian erläutert, einschließlich des wahren Endes, des kommunistischen Endes und wie Ihre Entscheidungen und Konsequenzen jedes Ergebnis freischalten.",
+      "metaTitle": "Endings von The Life and Suffering of Prince Jerian - True & All Endings Guide",
+      "metaDescription": "Öffne jede Ende in The Life and Suffering of Prince Jerian mit Leitfäden zum wahren Ende, kommunistischen Ende und wie Entscheidungen und Konsequenzen das Schicksal von Prince Jerian bestimmen.",
+      "categoryLabel": "ENDINGS",
+      "whatIs": "Was sind Enden?",
+      "whatIsDescription": "The Life and Suffering of Prince Jerian bietet verzweigte Enden, die von Ihren politischen Entscheidungen, Fraktionsallianzen und persönlichen Eigenschaften geformt werden. Jedes Ende spiegelt den Herrscher Jerian wider, den er wurde, und das Reich, das er hinterließ.",
+      "why": "Warum Enden erkunden?",
+      "whySteps": {
+        "step1Title": "Das wahre Ende finden",
+        "step1Description": "Erfahren Sie die genauen Bedingungen, um das wahre Ende freizuschalten",
+        "step2Title": "Konsequenzen verstehen",
+        "step2Description": "Sehen Sie, wie jede wichtige Wahl und Konsequenz den endgültigen Ausgang lenkt",
+        "step3Title": "Jeden Pfad sammeln",
+        "step3Description": "Entdecken Sie alternative Enden wie den kommunistischen Weg durch Wiederspielen von Entscheidungen"
+      },
+      "featured": "Hervorgehoben & Wichtig",
+      "all": "Alle Enden-Artikel"
+    },
+    "characters": {
+      "title": "Charaktere von The Life and Suffering of Prince Jerian",
+      "description": "Detaillierte Charakter- und Fraktionsführer für The Life and Suffering of Prince Jerian, die Edelleute, Begleiter, die Kirche und die politischen Figuren des Glücklichen Arknianischen Reiches abdecken.",
+      "metaTitle": "Charaktere von The Life and Suffering of Prince Jerian - Fraktionen & Begleiter",
+      "metaDescription": "Vollständige Charakterdatenbank für The Life and Suffering of Prince Jerian einschließlich Edelleuten, Begleitern, Fraktionen und politischen Figuren. Lernen Sie, wie jeder Charakter Prinz Jerians Geschichte prägt.",
+      "categoryLabel": "CHARACTERS & FACTIONS",
+      "whatIs": "Was sind Charakterführer?",
+      "whatIsDescription": "Komplette Führer für die Hauptfiguren und Fraktionen des Glücklichen Arknianischen Reiches. Lernen Sie die Motivationen, Beziehungen und wie sie Prinz Jerians Reise und die Zukunft des Reiches prägen.",
+      "why": "Warum Charakterführer überprüfen?",
+      "whySteps": {
+        "step1Title": "Fraktionen verstehen",
+        "step1Description": "Erfahren Sie, was die Edelleute, die Kirche und die Gemeinschaft wollen und wie Sie ihre Unterstützung gewinnen können",
+        "step2Title": "Beziehungen verwalten",
+        "step2Description": "Wählen Sie Dialoge und Entscheidungen, die entscheidende Allianzen und Begleiter stärken",
+        "step3Title": "Die Geschichte formen",
+        "step3Description": "Verwende Charakterkenntnisse, um dein bevorzugtes Ende zu erreichen"
+      },
+      "featured": "Hervorgehoben & Wichtig",
+      "all": "Alle Charaktere"
+    },
+    "builds": {
+      "title": "The Life and Suffering of Prince Jerian Aufbauten",
+      "description": "Masteere die Prince Jerian Builds mit Attribut-, Statistik- und Eigenschaftsleitfäden, die bestimmen, welche Entscheidungen, Fähigkeiten und Enden du im The Life and Suffering of Prince Jerian erreichen kannst.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Builds - Stats, Traits & Beste Entscheidungen",
+      "metaDescription": "Masteere die The Life and Suffering of Prince Jerian Builds mit Attributleitfäden, Eigenschaftserklärungen, Statistikanalysen und den besten Entscheidungen, um dein bevorzugtes Ende zu erreichen.",
+      "categoryLabel": "BUILDS & STATS",
+      "whatIs": "Was sind Builds?",
+      "whatIsDescription": "Builds und Statistikleitfäden erläutern, wie Attribute, Eigenschaften und Geistesfrieden die verfügbaren Entscheidungen und Ergebnisse während der Geschichte von Prince Jerian beeinflussen, und erlauben es dir, den Prinzen auf den Weg zu formen, den du möchtest.",
+      "why": "Warum Builds planen?",
+      "whySteps": {
+        "step1Title": "Erhalte bessere Entscheidungen",
+        "step1Description": "Erhöhe die richtigen Attribute, um neue Dialog- und Entscheidungsoptionen zu öffnen",
+        "step2Title": "Eigenschaften verstehen",
+        "step2Description": "Lerne, wie persönliche Eigenschaften politische und persönliche Ergebnisse beeinflussen",
+        "step3Title": "Optimiere Enden",
+        "step3Description": "Forme deinen Build für das Ende, das du erreichen möchtest"
+      },
+      "featured": "Hervorgehoben & Wichtig",
+      "all": "Alle Buildleitfäden"
+    },
+    "release": {
+      "title": "The Life and Suffering of Prince Jerian Veröffentlichung",
+      "description": "Veröffentlichungsdatum, Plattformen, Preis und die neuesten Nachrichten und Updates für The Life and Suffering of Prince Jerian von Schisma Games und 101XP.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Veröffentlichung - Datum, Plattformen & Preis",
+      "metaDescription": "Erhalte das Veröffentlichungsdatum, Plattformunterstützung, Preis und die neuesten Nachrichten und Updates für The Life and Suffering of Prince Jerian von Schisma Games und 101XP.",
+      "categoryLabel": "VERÖFFENTLICHUNG & UPDATES",
+      "whatIs": "Was ist Veröffentlichungsinformation?",
+      "whatIsDescription": "Alles über den Start von The Life and Suffering of Prince Jerian: das Veröffentlichungsdatum, unterstützte Plattformen, Preis, Demoverfügbarkeit und Nachveröffentlichungsnews und Updates.",
+      "why": "Warum Veröffentlichungsinformationen verfolgen?",
+      "whySteps": {
+        "step1Title": "Bleibe informiert",
+        "step1Description": "Verfolge das Veröffentlichungsdatum, Plattformen, Preis und Demoverfügbarkeit",
+        "step2Title": "Lesen Sie Updates",
+        "step2Description": "Bleiben Sie auf dem Laufenden mit Nachrichten, Patches und Verbesserungen nach dem Start",
+        "step3Title": "Planen Sie voraus",
+        "step3Description": "Erwartet neues Inhalt und Funktionen für den Weg von Prince Jerian"
+      },
+      "featured": "Hervorgehoben & Wichtig",
+      "all": "Alle Veröffentlichungsartikel"
+    },
+    "media": {
+      "title": "The Life and Suffering of Prince Jerian Medien",
+      "description": "Sehen Sie den Trailer, Gameplay und Soundtrack von The Life and Suffering of Prince Jerian und erkunden Sie das offizielle und künstliche Kunstwerk hinter dem politischen Narrativ-RPG.",
+      "metaTitle": "The Life and Suffering of Prince Jerian Medien - Trailer, Gameplay & OST",
+      "metaDescription": "Erkunden Sie The Life and Suffering of Prince Jerian Medien einschließlich des offiziellen Trailers, Gameplay-Videos, Soundtrack, OST und Kunst für das narrative RPG.",
+      "categoryLabel": "MEDIEN & TRAILER",
+      "whatIs": "Was ist Medien?",
+      "whatIsDescription": "Eine Sammlung von Trailer, Gameplay-Szenen, dem offiziellen Soundtrack und OST sowie Kunst für \"Das Leben und Leiden des Prinzen Jerian\", die Ihnen einen vollständigen Blick auf die Atmosphäre und Stimmung der Geschichte von Prinzen Jerian gibt.",
+      "why": "Warum Medien erkunden?",
+      "whySteps": {
+        "step1Title": "Schau dir den Trailer an",
+        "step1Description": "Sehe dir den offiziellen Trailer an und spür die politische Stimmung des Spiels",
+        "step2Title": "Vorschau Gameplay",
+        "step2Description": "Sehe dir Gameplay-Szenen der wahlgeleiteten Narrativsysteme an",
+        "step3Title": "Genieße den Soundtrack",
+        "step3Description": "Höre den OST und die Soundtrack, die die Atmosphäre des Reiches definieren"
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Medien"
+    }
   }
 }

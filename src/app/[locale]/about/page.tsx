@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: 'About Prince Jerian Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about Prince Jerian Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for The Life and Suffering of Prince Jerian on Steam.',
+    description: 'Learn about Prince Jerian Wiki, a community-driven resource hub providing comprehensive guides on choices, endings, characters, builds, and walkthroughs for The Life and Suffering of Prince Jerian on Steam.',
     robots: {
       index: false,
       follow: true,
@@ -75,10 +75,10 @@ export default function About() {
             <p>
               Prince Jerian Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
               master the Steam game "The Life and Suffering of Prince Jerian". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              choice breakdowns, endings explanations, character and faction details, and build strategies to enhance your playthrough.
             </p>
             <p>
-              Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
+              Whether you're a new player navigating your first political decisions or a seasoned ruler chasing every ending,
               Prince Jerian Wiki is here to support you every step of the way.
             </p>
           </div>
@@ -92,20 +92,20 @@ export default function About() {
             <h2>Our Mission</h2>
             <p>
               Our mission is simple: <strong>to empower The Life and Suffering of Prince Jerian players with accurate, up-to-date information
-              and powerful tools</strong> that help them succeed in the game. We strive to:
+              and useful guides</strong> that help them succeed in the game. We strive to:
             </p>
             <ul>
-              <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
-              <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
-              <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
+              <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, patch notes, and community findings</li>
+              <li><strong>Build useful guides:</strong> Develop walkthroughs, choice references, and build planners that help players make informed decisions</li>
+              <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and discuss the story together</li>
               <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>
             </ul>
 
             <h2>Our Vision</h2>
             <p>
               We envision Prince Jerian Wiki as the <strong>go-to destination</strong> for every The Life and Suffering of Prince Jerian player seeking
-              to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              to deepen their playthrough. We want to be the resource that players trust and rely on, whether they need
+              choice guides, want to unlock a specific ending, or are looking for advanced build strategies.
             </p>
           </div>
         </div>
@@ -118,51 +118,46 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <div className="text-2xl mb-3">🔀</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Choices & Decisions</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
+                Detailed breakdowns of major dialogue and political decisions, their consequences, and how they shape Prince Jerian's journey.
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <div className="text-2xl mb-3">🏁</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Endings Guide</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
+                Clear explanations of every branching outcome, including the true ending and alternate routes, and how to unlock them.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <div className="text-2xl mb-3">👥</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Characters & Factions</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                Comprehensive guides on the nobility, the Church, common people, and the political figures of the Blessed Arknian Empire.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <div className="text-2xl mb-3">📈</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Builds & Stats</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all achievements in the game.
-                Complete your collection with our detailed walkthroughs.
+                Attribute, trait, and sanity breakdowns that determine which choices and endings you can reach.
               </p>
             </div>
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
               <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Walkthroughs</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
+                Chapter-by-chapter story progression guides that highlight key decision points and their long-term consequences.
               </p>
             </div>
 
@@ -171,8 +166,7 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
+                Content available in multiple languages including English, Russian, German, and Spanish.
               </p>
             </div>
           </div>
@@ -190,12 +184,12 @@ export default function About() {
             </p>
             <ul>
               <li><strong>Player feedback:</strong> Your suggestions help us improve and expand our resources</li>
-              <li><strong>Community discoveries:</strong> New strategies, hidden mechanics, and pro tips shared by players</li>
+              <li><strong>Community discoveries:</strong> New strategies, hidden choices, and ending routes shared by players</li>
               <li><strong>Game updates:</strong> We monitor official updates and adjust our content accordingly</li>
-              <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
+              <li><strong>Meta shifts:</strong> We track popular build and choice trends and update guides based on real player experiences</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
+              <strong>Want to contribute?</strong> Whether you've found a new ending route, discovered a hidden choice consequence,
               or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
             </p>
           </div>
@@ -208,22 +202,19 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>About the Team</h2>
             <p>
-              Prince Jerian Wiki is maintained by a dedicated team of passionate gamers and developers who love
-              The Life and Suffering of Prince Jerian as much as you do. We're players first, constantly testing strategies, exploring game
-              mechanics, and staying updated with the latest discoveries.
+              Prince Jerian Wiki is maintained by a dedicated team of passionate gamers and writers who love
+              The Life and Suffering of Prince Jerian as much as you do. We're players first, constantly testing choices, exploring branching paths,
+              and staying updated with the latest discoveries.
             </p>
             <p>
               Our team combines expertise in:
             </p>
             <ul>
-              <li><strong>Game analysis:</strong> Deep understanding of The Life and Suffering of Prince Jerian mechanics and strategies</li>
+              <li><strong>Game analysis:</strong> Deep understanding of The Life and Suffering of Prince Jerian choice, stats, and ending mechanics</li>
               <li><strong>Web development:</strong> Building fast, user-friendly tools and interfaces</li>
               <li><strong>Content creation:</strong> Writing clear, helpful guides and tutorials</li>
               <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
             </ul>
-            <p className="text-slate-400 italic text-sm">
-              Project Codename: "Dreamscape" – Navigating the surreal together.
-            </p>
           </div>
         </div>
       </section>
@@ -235,7 +226,7 @@ export default function About() {
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
               <strong>Prince Jerian Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with Schisma Games or any official entities.
+              endorsed by, or associated with Schisma Games, 101XP, or any official entities.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.

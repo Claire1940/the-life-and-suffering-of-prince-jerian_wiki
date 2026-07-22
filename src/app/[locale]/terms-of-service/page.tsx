@@ -90,16 +90,16 @@ export default function TermsOfService() {
               and resources related to the Steam game "The Life and Suffering of Prince Jerian". Our services include, but are not limited to:
             </p>
             <ul>
-              <li>Game guides and survival strategies</li>
-              <li>Crafting and Apotheosis fusion guides</li>
-              <li>Biome and world region information</li>
-              <li>Creature and enemy guides</li>
+              <li>Story walkthroughs and choice guides</li>
+              <li>Endings and branching outcome explanations</li>
+              <li>Character and faction information</li>
+              <li>Build, stat, and trait guides</li>
               <li>Achievement walkthroughs</li>
               <li>Community discussion and content</li>
             </ul>
             <p>
               <strong>Important:</strong> Prince Jerian Wiki is NOT affiliated with, endorsed by, or associated with
-              Valve Corporation (Steam) or the official developer Schisma Games. We are an independent fan community.
+              Valve Corporation (Steam), the developer Schisma Games, or the publisher 101XP. We are an independent fan community.
             </p>
 
             <h2>3. User Responsibilities</h2>

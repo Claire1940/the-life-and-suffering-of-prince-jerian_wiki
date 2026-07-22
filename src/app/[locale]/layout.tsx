@@ -110,6 +110,25 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
   const navPreviewData = await getNavPreviewData(locale as Language);
 
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.the-life-and-suffering-of-prince-jerian.wiki";
+  const localeUrl = locale === "en" ? siteUrl : `${siteUrl}/${locale}`;
+  // WebSite + SearchAction 结构化数据：启用 Google 站内搜索框展示
+  const websiteStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Prince Jerian Wiki",
+    url: localeUrl,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${siteUrl}/?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
 	return (
 		<html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
 			<head>
@@ -119,6 +138,10 @@ export default async function LocaleLayout({ children, params }: Props) {
 					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7733402184034568"
 					crossOrigin="anonymous"
 					strategy="lazyOnload"
+				/>
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteStructuredData) }}
 				/>
 			</head>
 			<body suppressHydrationWarning className="antialiased">
