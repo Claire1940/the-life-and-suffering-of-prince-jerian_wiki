@@ -85,7 +85,7 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.the-life-and-suffering-of-prince-jerian.wiki";
 
   // Structured data
   const structuredData = {
@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Prince Jerian Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Complete Prince Jerian Wiki covering choices, endings, lore, characters, builds, walkthroughs, and strategy guides for The Life and Suffering of Prince Jerian narrative RPG on PC Steam.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "The Life and Suffering of Prince Jerian",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,9 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Prince Jerian Wiki",
+        alternateName: "The Life and Suffering of Prince Jerian Wiki",
         url: siteUrl,
-        description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -130,41 +128,49 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "The Life and Suffering of Prince Jerian Wiki",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://store.steampowered.com/app/2936290/The_Life_and_Suffering_of_Prince_Jerian/",
+          "https://steamcommunity.com/app/2936290",
+          "https://store.steampowered.com/app/3131940/The_Life_and_Suffering_of_Prince_Jerian_Demo/",
+          "https://www.youtube.com/watch?v=NIwZ1D47CQQ",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
+        name: "The Life and Suffering of Prince Jerian",
         gamePlatform: ["PC", "Steam"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["RPG", "Narrative", "Choices Matter", "Strategy"],
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "101XP",
+        },
+        developer: {
+          "@type": "Organization",
+          name: "Schisma Games",
         },
         offers: {
           "@type": "Offer",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://store.steampowered.com/app/2936290/The_Life_and_Suffering_of_Prince_Jerian/",
         },
       },
       {
         "@type": "VideoObject",
-        name: "The Life and Suffering of Prince Jerian - Official Gameplay Trailer",
+        name: "The Life and Suffering of Prince Jerian: Official Launch Trailer",
         description:
-          "Official gameplay trailer for The Life and Suffering of Prince Jerian, the black-and-white narrative RPG published by 101XP.",
+          "Official launch trailer for The Life and Suffering of Prince Jerian, the black-and-white narrative RPG published by 101XP and developed by Schisma Games.",
         uploadDate: "2026-07-20",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/Pb-JSXfy_X0",
-        url: "https://www.youtube.com/watch?v=Pb-JSXfy_X0",
+        embedUrl: "https://www.youtube.com/embed/NIwZ1D47CQQ",
+        url: "https://www.youtube.com/watch?v=NIwZ1D47CQQ",
       },
     ],
   };
@@ -247,7 +253,7 @@ export default function HomePageClient({
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://store.steampowered.com/app/2936290/The_Life_and_Suffering_of_Prince_Jerian/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
@@ -272,7 +278,7 @@ export default function HomePageClient({
         <div className="scroll-reveal container mx-auto max-w-6xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="Pb-JSXfy_X0"
+              videoId="NIwZ1D47CQQ"
               title="The Life and Suffering of Prince Jerian - Official Gameplay Trailer"
             />
           </div>
@@ -1325,21 +1331,21 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://steamcommunity.com/app/2936290"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    <MessageCircle className="w-4 h-4" /> Discord{" "}
+                    <MessageCircle className="w-4 h-4" /> Steam Community{" "}
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://store.steampowered.com/app/2936290/The_Life_and_Suffering_of_Prince_Jerian/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Steam Store <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -1400,7 +1406,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://www.youtube.com/watch?v=NIwZ1D47CQQ"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1410,7 +1416,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href="https://store.steampowered.com/app/3131940/The_Life_and_Suffering_of_Prince_Jerian_Demo/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1420,7 +1426,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href="https://steamcommunity.com/app/2936290"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1430,7 +1436,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://store.steampowered.com/app/2936290/The_Life_and_Suffering_of_Prince_Jerian/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
