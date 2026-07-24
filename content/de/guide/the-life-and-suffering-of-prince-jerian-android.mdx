@@ -1,0 +1,102 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Das Leben und Leiden des Prinzen Jerian: Ein Erzähl-RPG-Abenteuer",
+  description: "Entdecke die Geschichte von Prinzen Jerian in diesem Erzähl-RPG. Lerne die Spielmechaniken, Charakterentwicklung und mehr.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/059669/fff?text=Das+Leben+und+Leiden+des+Prinzen+Jerian",
+  date: "2026-07-24",
+  author: "Wiki-Team des Lebens und Leidens des Prinzen Jerian"
+};
+
+<Callout type="info" title="Kurzübersicht">
+- **Hauptwort**: Das Leben und Leiden des Prinzen Jerian
+- **Spielmechanik**: Erzählgetriebenes RPG mit bedeutenden Entscheidungen
+- **Plattform**: Verfügbar auf PC und Steam
+- **Veröffentlichungsdatum**: 20. Juli 2026
+- **Sprachen**: Unterstützung von 11 Sprachen
+</Callout>
+
+<Section icon={Map} title="Spielübersicht">
+
+Dieses Spiel ist ein erzählgetriebenes RPG, das die Geschichte von Prinzen Jerian erzählt, einem Thronfolger, der von Pflicht und Macht belastet ist. Das Spiel spielt in der Großen Arknianischen Provinz, wo deine Entscheidungen das Schicksal des Landes und dein eigenes Schicksal prägen werden.
+
+</Section>
+
+<Section icon={Swords} title="Spielmechaniken">
+
+<Callout type="tip" title="Wichtige Spielmechaniken">
+- **Erzählentscheidungen**: Deine Entscheidungen werden die Geschichte und die Welt um dich herum beeinflussen.
+- **Kraftmanagement**: Als Thronfolger musst du deine Kraft klug verwalten.
+- **Politische Intrigen**: Navigiere durch die komplexe politische Landschaft, um deine Ziele zu erreichen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Charakterentwicklung">
+
+Dein Charakter, Prinzen Jerian, wird durch verschiedene Stufen seines Lebens voranschreiten. Hier sind einige wichtige Meilensteine:
+
+<Checklist
+  id="character-progression"
+  title="Charaktermeilensteine:"
+  items={[
+    "Begib dich auf deine Reise als Kind, das dein Schicksal noch nicht kennt",
+    "Erhebe dich auf den Thron und stelle die Last deiner Verantwortung",
+    "Täusche schwierige Entscheidungen, die das gesamte Reich beeinflussen",
+    "Vereinige oder zerspreche das Land basierend auf deinen Entscheidungen"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zum Starten des Spiels">
+
+<Steps>
+  <Step num="1" title="Erste Einrichtung">
+    Lade und installiere das Spiel auf deinem PC oder Steam.
+  </Step>
+  <Step num="2" title="Erstelle einen Charakter">
+    Wähle den Namen, das Aussehen und die anfänglichen Attribute deines Charakters.
+  </Step>
+  <Step num="3" title="Lerne die Welt kennen">
+  Lerne die Große Arknianische Provinz und ihre politische Landschaft kennen.
+  </Step>
+  <Step num="4" title="Täusche deine erste Entscheidung">
+  Beginne das Spiel, indem du deine erste Entscheidung triffst, die die Geschichte prägen wird.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie mache ich bedeutende Entscheidungen im Spiel?",
+    answer: "Deine Entscheidungen werden die Geschichte und die Welt um dich herum beeinflussen. Beachte die vorgeschlagenen Entscheidungen und überlege dir die langfristigen Konsequenzen."
+  },
+  {
+    question: "Kann ich als anderer Charakter spielen, wenn mir meine erste Wahl nicht gefällt?",
+    answer: "Ja, du kannst jederzeit einen neuen Charakter erstellen und dein Abenteuer neu beginnen."
+  },
+  {
+    question: "Welche Bedeutung hat das Kraftmanagement?",
+    answer: "Als Thronfolger musst du deine Kraft klug verwalten, um deine Ziele zu erreichen und die Stabilität im Reich zu erhalten."
+  }
+]} />
+
+</Section>
+
+<Section icon={Sparkles} title="Schluss">
+
+Das Leben und Leiden des Prinzen Jerian ist ein reichhaltiges und immersives Erzähl-RPG, das ein einzigartiges Erlebnis bietet. Mit seinen bedeutenden Entscheidungen und der komplexen Welt ist es ein Muss für RPG-Enthusiasten.
+
+</Section>

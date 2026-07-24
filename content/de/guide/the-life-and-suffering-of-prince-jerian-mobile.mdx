@@ -1,0 +1,105 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Das Leben und Leiden des Prinzen Jerian: Leitfaden zur Reise des Thronprinzessens",
+  description: "Entdecken Sie die Geschichte von Prinzen Jerian in diesem RPG-Leitfaden, mit Tipps, Strategien und einem tiefen Einblick in die Spielmechaniken.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/059669/fff?text=Leben+und+Leiden+des+Prinzen+Jerian+Leitfaden",
+  date: "2026-07-24",
+  author: "Wiki-Team des Lebens und Leidens des Prinzen Jerian"
+};
+
+<Callout type="info" title="Kurzguide">
+- **Handlungsschwerpunkt**: Erleben Sie die Geschichte von Prinzen Jerian, dem auserwählten der Götter.
+- **Narrativer Rollenspiel**: Tauchen Sie in eine Welt ein, in der jede Entscheidung den Schicksal des Arknianischen Reiches prägt.
+- **Entscheidungen und Konsequenzen**: Ihre Entscheidungen beeinflussen das Machtgefüge und das Schicksal des Landes.
+- **Spielmechaniken**: Beherrschen Sie die Gameplay-Features, die die einzigartige Erfahrung von Das Leben und Leiden des Prinzen Jerian prägen.
+- **Visual Novel-Elemente**: Genießen Sie reichhaltige Geschichten und atmosphärische Umgebungen.
+</Callout>
+
+<Section icon={Map} title="Einleitung in Das Leben und Leiden des Prinzen Jerian">
+
+Das Leben und Leiden des Prinzen Jerian ist ein narrativer Rollenspiel, das im Großen Arknianischen Reich spielt. Als Prinzen Jerian verkörpern Sie den Auserwählten, der mit der Aufgabe betraut ist, das Land zu regieren und die Komplexitäten von Macht und Pflicht zu navigieren. Dieser Leitfaden bietet Ihnen grundlegende Informationen, Tipps und Strategien, um Ihnen auf Ihrem Weg zu helfen.
+
+</Section>
+
+<Section icon={Swords} title="Spielmechaniken">
+
+Das Spiel kombiniert Elemente des Rollenspiels und der Visual Novel und bietet ein tiefes und immersives Erlebnis. Wichtige Spielmechaniken umfassen:
+
+<Checklist
+  id="game-mechanics"
+  title="Spielmechaniken:"
+  items={[
+    "Entscheidungsfindung': 'Jede Entscheidung, die Sie treffen, wird langfristige Konsequenzen haben.",
+    "Machtgefüge': 'Verstehen Sie das Machtgefüge zwischen Klerus, Adeligen und Bürgern.",
+    "Quests und Missionen': 'Vollenden Sie Quests, um Ihre Geschichte voranzutreiben und neue Inhalte zu entsperren.",
+    "Diplomatie und Bündnisse': 'Formen Sie Bündnisse mit verschiedenen Fraktionen zum eigenen Vorteil."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Charakterentwicklung">
+
+Während des Spiels müssen Sie die Entwicklung Ihres Charakters verwalten. Hier sind einige Tipps, um Ihnen zu helfen, erfolgreich zu sein:
+
+<Steps>
+  <Step num="1" title="Fertigkeitsentwicklung">
+    Priorisieren Sie Fähigkeiten, die mit Ihrem Spielstil und Ihren strategischen Zielen übereinstimmen.
+  </Step>
+  <Step num="2" title="Inventarverwaltung">
+    Halten Sie Ihren Inventar organisiert, um wichtige Gegenstände schnell zugänglich zu machen.
+  </Step>
+  <Step num="3" title="Ressourcenverteilung">
+    Verwalten Sie Ihre Ressourcen weise, um ein Gleichgewicht zwischen Ihren Bedürfnissen und den Bedürfnissen des Reiches zu erhalten.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Wichtige Tipps und Strategien">
+
+Um in Das Leben und Leiden des Prinzen Jerian hervorragend zu abschneiden, beachten Sie diese Tipps:
+
+<Callout type="tip" title="Pro-Tipp">
+Denken Sie immer voraus und betrachten Sie die langfristigen Auswirkungen Ihrer Entscheidungen.
+</Callout>
+
+<Callout type="warning" title="Wichtig">
+Seien Sie vorsichtig mit Ihren Entscheidungen, da sie zu verschiedenen Ergebnissen führen und die Richtung der Geschichte beeinflussen können.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Was ist die Geschichte von Das Leben und Leiden des Prinzen Jerian?",
+    answer: "Das Spiel erzählt die Geschichte von Prinzen Jerian, einem Auserwählten, der die Komplexitäten von Macht und Pflicht im Arknianischen Reich navigieren muss."
+  },
+  {
+    question: "Wie kann ich die besten Entscheidungen im Spiel treffen?",
+    answer: "Betrachten Sie die potenziellen Konsequenzen jeder Entscheidung und wie sie die Geschichte und das Reich beeinflussen wird."
+  },
+  {
+    question: "Kann ich das Spiel mit verschiedenen Ergebnissen wiederholen?",
+    answer: "Ja, das Spiel ermöglicht es Ihnen, verschiedene Entscheidungen zu treffen, was zu verschiedenen Enden führen kann."
+  }
+]} />
+
+</Section>
+
+<Section icon={Shield} title="Schluss">
+
+Das Leben und Leiden des Prinzen Jerian ist ein reichhaltiges und immersives RPG, das Spielern ein einzigartiges Erlebnis bietet. Durch das Verständnis der Spielmechaniken, informierte Entscheidungen treffen und strategische Tipps nutzen, können Sie die Herausforderungen des Arknianischen Reiches meistern und seine Zukunft gestalten.
+
+</Section>

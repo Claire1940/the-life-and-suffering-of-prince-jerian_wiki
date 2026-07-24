@@ -1,0 +1,102 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "La Vida y Sufimiento del Príncipe Jerian: Un Viaje de RPG Narrativo",
+  description: "Explora la historia del Príncipe Jerian en este RPG narrativo. Aprende sobre los mecanismos del juego, el progreso de los personajes y más.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=La+Vida+y+Sufimiento+del+Príncipe+Jerian",
+  date: "2026-07-24",
+  author: "Equipo de Wiki del Vida y Sufimiento del Príncipe Jerian"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: La Vida y Sufimiento del Príncipe Jerian
+- **Jugabilidad**: RPG narrativo con decisiones impactantes
+- **Plataforma**: Disponible en PC y Steam
+- **Fecha de lanzamiento**: 20 de julio de 2026
+- **Idiomas**: Soportado en 11 idiomas
+</Callout>
+
+<Section icon={Map} title="Visión General del Juego">
+
+Este juego es un RPG narrativo que cuenta la historia del Príncipe Jerian, un príncipe heredero cargado de deberes y poder. El juego se sitúa en el Gran Imperio de Arknia, donde tus decisiones moldearán el destino de la nación y el tuyo propio.
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas del Juego">
+
+<Callout type="tip" title="Sistemas de Juego Importantes">
+- **Elecciones Narrativas**: Tus decisiones afectarán la historia y el mundo a tu alrededor.
+- **Gestión de Poder**: Como príncipe heredero, debes gestionar tu poder con sabiduría.
+- **Intrigas Políticas**: Navega por el complejo paisaje político para alcanzar tus objetivos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progreso del Personaje">
+
+Tu personaje, el Príncipe Jerian, avanzará a través de diversas etapas de su vida. Aquí hay algunos hitos clave:
+
+<Checklist
+  id="character-progression"
+  title="Hitos del Personaje:"
+  items={[
+    "Empezar tu viaje como un niño inconsciente de tu destino",
+    "Ascender al trono y enfrentar el peso de tus responsabilidades",
+    "Tomar decisiones difíciles que afectarán todo el imperio",
+    "Unir o desintegrar el país basado en tus decisiones"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Comenzar el Juego">
+
+<Steps>
+  <Step num="1" title="Configuración Inicial">
+    Descarga e instala el juego en tu PC o Steam.
+  </Step>
+  <Step num="2" title="Crear un Personaje">
+    Elige el nombre, la apariencia y las características iniciales de tu personaje.
+  </Step>
+  <Step num="3" title="Conoce el Mundo">
+  Aprende sobre el Gran Imperio de Arknia y su paisaje político.
+  </Step>
+  <Step num="4" title="Toma tu Primera Decision">
+  Comienza el juego tomando tu primera decisión que moldeará la historia.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo puedo tomar decisiones impactantes en el juego?",
+    answer: "Tus decisiones afectarán la historia y el mundo a tu alrededor. Presta atención a las elecciones presentadas y considera las consecuencias a largo plazo."
+  },
+  {
+    question: "¿Puedo jugar como un personaje diferente si no me gusta mi elección inicial?",
+    answer: "Sí, puedes crear un nuevo personaje en cualquier momento y comenzar tu viaje de nuevo."
+  },
+  {
+    question: "¿Cuál es la importancia de la gestión de poder?",
+    answer: "Como príncipe heredero, debes gestionar tu poder con sabiduría para alcanzar tus objetivos y mantener la estabilidad en el imperio."
+  }
+]} />
+
+</Section>
+
+<Section icon={Sparkles} title="Conclusión">
+
+La Vida y Sufimiento del Príncipe Jerian es un RPG narrativo rico e inmersivo que ofrece una experiencia única. Con sus decisiones impactantes y un mundo complejo, es un must-play para los entusiastas del RPG.
+
+</Section>

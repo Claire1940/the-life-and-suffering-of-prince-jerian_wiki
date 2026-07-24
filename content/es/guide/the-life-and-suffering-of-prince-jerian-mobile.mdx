@@ -1,0 +1,105 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "La Vida y Sufimiento del Príncipe Jerian: Guía del Viaje del Príncipe Heredero",
+  description: "Explora la historia del Príncipe Jerian en esta guía de RPG, con consejos, estrategias y un análisis detallado de los mecanismos del juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Life+and+Suffering+of+Prince+Jerian+Guide",
+  date: "2026-07-24",
+  author: "Equipo de Wiki del Vida y Sufimiento del Príncipe Jerian"
+};
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque en la Historia**: Experimenta la historia del Príncipe Jerian, elegido de los dioses.
+- **RPG Narrativo**: Sumérgete en un mundo donde cada decisión moldea el destino del Imperio Arkniano.
+- **Elecciones y Consecuencias**: Tus decisiones afectarán el equilibrio del poder y el destino de la tierra.
+- **Mecánicas del Juego**: Dominar las características de juego que definen la experiencia única de La Vida y Sufimiento del Príncipe Jerian.
+- **Elementos de Novela Visual**: Disfruta de una narrativa rica y entornos ambientales.
+</Callout>
+
+<Section icon={Map} title="Introducción a La Vida y Sufimiento del Príncipe Jerian">
+
+La Vida y Sufimiento del Príncipe Jerian es un juego de rol narrativo situado en el Gran Imperio Arkniano. Como Príncipe Jerian, encarnas al elegido, encargado de gobernar la nación y navegar las complejidades del poder y la obligación. Esta guía te proporcionará información esencial, consejos y estrategias para ayudarte en tu viaje.
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas del Juego">
+
+El juego presenta una mezcla de elementos de rol y novela visual, ofreciendo una experiencia profunda e inmersiva. Las mecánicas clave del juego incluyen:
+
+<Checklist
+  id="game-mechanics"
+  title="Mecánicas del Juego:"
+  items={[
+    "Toma de Decisiones': 'Cada elección que hagas tendrá consecuencias a largo plazo.",
+    "Dinámica del Poder': 'Entiende el equilibrio del poder entre la iglesia, los nobles y los campesinos.",
+    "Misiones y Quests': 'Completa misiones para avanzar en tu historia y desbloquear nuevo contenido.",
+    "Diplomacia y Alianzas': 'Forma alianzas con diferentes facciones para tu beneficio."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Progresión del Personaje">
+
+A medida que juegues, necesitarás gestionar la progresión de tu personaje. Aquí tienes algunos consejos para ayudarte a tener éxito:
+
+<Steps>
+  <Step num="1" title="Desarrollo de Habilidades">
+    Prioriza habilidades que se alineen con tu estilo de juego y objetivos estratégicos.
+  </Step>
+  <Step num="2" title="Gestión de Inventario">
+    Mantén tu inventario organizado para acceder rápidamente a los artículos esenciales.
+  </Step>
+  <Step num="3" title="Asignación de Recursos">
+    Gestiona tus recursos de manera sabia para mantener un equilibrio entre tus necesidades y las necesidades del imperio.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Consejos y Estrategias Esenciales">
+
+Para destacar en La Vida y Sufimiento del Príncipe Jerian, considera estos consejos:
+
+<Callout type="tip" title="Consejo de Pro">
+Siempre piensa con anticipación y considera las implicaciones a largo plazo de tus decisiones.
+</Callout>
+
+<Callout type="warning" title="Importante">
+Ten cuidado con tus elecciones, ya que pueden llevar a diferentes resultados y afectar la dirección de la historia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la historia de La Vida y Sufimiento del Príncipe Jerian?",
+    answer: "El juego cuenta la historia del Príncipe Jerian, un elegido que debe navegar las complejidades del poder y la obligación en el Imperio Arkniano."
+  },
+  {
+    question: "¿Cómo puedo tomar las mejores decisiones en el juego?",
+    answer: "Considera las posibles consecuencias de cada elección y cómo afectará a la historia y al imperio."
+  },
+  {
+    question: "¿Puedo volver a jugar el juego con diferentes resultados?",
+    answer: "Sí, el juego te permite tomar diferentes decisiones, lo que puede llevar a diferentes finales."
+  }
+]} />
+
+</Section>
+
+<Section icon={Shield} title="Conclusión">
+
+La Vida y Sufimiento del Príncipe Jerian es un RPG rico e inmersivo que ofrece a los jugadores una experiencia única. Al comprender los mecanismos del juego, tomar decisiones informadas y utilizar consejos estratégicos, puedes navegar los desafíos del Imperio Arkniano y moldear su futuro.
+
+</Section>
